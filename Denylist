@@ -229,12 +229,14 @@ z-na.amazon-adsystem.com
 
 # ALEXA
 data.alexa.com
+
 # BUGSNAG
 bugsnag.com
 bugstractorbring.com
 bugtags.cn
 bugtags.com
 bugzmn.icu
+
 # SENTRY
 analytics.essentry.com
 getsentry.com
@@ -242,6 +244,7 @@ sentry.io
 sentry-cdn.com
 sentry-cdn.top
 usesentry.com
+
 # PINTEREST
 ads.pinterest.com
 ads-dev.pinterest.com
@@ -250,6 +253,7 @@ log.pinterest.com
 trk.pinterest.com
 trk2.pinterest.com
 widgets.pinterest.com
+
 # YAHOO
 360.yahoo.com
 3p-geo.yahoo.com
@@ -312,6 +316,7 @@ adtech.yahooinc.com
 advertising.yahooinc.com
 analytics.yahooinc.com
 yahooweed.com
+
 # APPLE
 api-adservices.apple.com
 books-analytics-events.apple.com
@@ -331,6 +336,7 @@ acfeedbackws.icloud.com
 feedbackws.icloud.com
 metrics.icloud.com
 metrics.mzstatic.com
+
 # HUAWEI
 ubacollect-drcn.cloud.dbankcloud.cn
 metrics-dre.data.dbankcloud.cn
@@ -420,6 +426,7 @@ events-dra.op.hicloud.com
 events-dre.op.hicloud.com
 logservice-dra.platform.hicloud.com
 logservice-dre.platform.hicloud.com
+
 # LG WEOS
 qt2-ngfts.lge.com
 ad.lgsmartad.com
@@ -435,6 +442,7 @@ kic.nudge.lgtvcommon.com
 ruc.nudge.lgtvcommon.com
 rdl.lgtvcommon.com
 aic.wiseconfig.lgtvcommon.com
+
 # OPPO & Realme
 calculator-api-fr.allawnos.com
 calculator-api-in.allawnos.com
@@ -732,6 +740,7 @@ bsf.sc.heytapmobile.com
 slb-apisnd-in.heytapmobile.com
 api-id.theme.heytapmobile.com
 report-sg.uc.heytapmobile.com
+
 # TIKTOK
 frontier.byteoversea.com
 gplog-sg.byteoversea.com
@@ -970,6 +979,7 @@ xlog16-normal-c-useast1a.tiktokv.com
 xlog16-normal-c-useast2a.tiktokv.com
 xlog16-platform-ycru.tiktokv.com
 xlog16-tmp-normal-useast1a.tiktokv.com
+
 # TikTok Extended Fingerprinting
 docs-frontier-sg.byteoversea.com
 frontier-prek-room.byteoversea.com
@@ -1123,6 +1133,7 @@ pitaya.us.tiktokv.com
 pitaya-task.us.tiktokv.com
 pitaya-task-ttp2.us.tiktokv.com
 pitaya-ttp2.us.tiktokv.com
+
 # VIVO
 asia-adlog.vivoglobal.com
 asia-adsjssdk.vivoglobal.com
@@ -1209,16 +1220,20 @@ ru-prt-stsdk.vivoglobal.com
 ru-stsdk.vivoglobal.com
 stsdk.vivoglobal.com
 err.up.vivoglobal.com
+
 # ROKU
 logs.roku.com
+
 # SAMSUNG
 nmetrics.samsung.com
 insights.samsung.com
 analytics.samsungknox.com
 bigdata.ssp.samsung.com
+
 # SONOS
 msmetrics.ws.sonos.com
 msmetrics-test.ws.sonos.com
+
 # WINDOW
 in.appcenter.ms
 nexusrules.live.com
@@ -1321,6 +1336,7 @@ eaus2watcab01.blob.core.windows.net
 eaus2watcab02.blob.core.windows.net
 weus2watcab01.blob.core.windows.net
 weus2watcab02.blob.core.windows.net
+
 # XIAOMI
 api.cupid.ptqy.gitv.tv
 config.kuyun.com
@@ -1679,6 +1695,7 @@ test-api.xmpush.xiaomi.com
 vip-api.xmpush.xiaomi.com
 api.zhuti.xiaomi.com
 m.zhuti.xiaomi.com
+
 # Danh sách chặn từ ABPVN.COM
 123c.vn
 127.0.1.1 stc.nas.nixcdn.com 
