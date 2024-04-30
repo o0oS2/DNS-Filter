@@ -26,7 +26,7 @@ r3i5enfsbw.cloudflare-gateway.com
 https://1drv.ms/u/s!Al8R__2PmYaUjQcoRWDEVAHGlda4?e=qHKxYK
 ## 6. Link cài đặt bộ lọc cho Serverless-DNS (Rethink DNS):
 https://serverless-dns.abpvn.workers.dev/
-### 6.1DNS over HTTPS (DoH) block ADS:
+### 6.1DNS over HTTPS (DoH) chặn quảng cáo (ABVN List):
 https://serverless-dns.abpvn.workers.dev/1:AAIAEA==
 
 Made with ♥ by o0oS2
