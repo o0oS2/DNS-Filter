@@ -36,12 +36,13 @@ https://1drv.ms/u/s!Al8R__2PmYaUjQanCbp7HMJHbg9K?e=XKlcjB
 r3i5enfsbw.cloudflare-gateway.com
 #### Linh tải cấu hình cho IOS:
 https://1drv.ms/u/s!Al8R__2PmYaUjQcoRWDEVAHGlda4?e=qHKxYK
+#### 2.3 IPv6
+2a06:98c1:54::15:29a5
+
 ## 3. Link cài đặt bộ lọc cho Serverless-DNS (Rethink DNS):
 https://serverless-dns.abpvn.workers.dev/
 #### DNS over HTTPS (DoH) chặn quảng cáo (ABVN List):
 https://serverless-dns.abpvn.workers.dev/1:AAIAEA==
-#### 2.3 IPv6
-2a06:98c1:54::15:29a5
 
 ## 4 Danh sách lọc của tôi
 ### 4.1 Danh sách cho phép bỏ qua quảng cáo:
