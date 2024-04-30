@@ -38,7 +38,8 @@ https://1drv.ms/u/s!Al8R__2PmYaUjQcoRWDEVAHGlda4?e=qHKxYK
 - Chế độ hạn chế Youtube: Các nội dung độc hại, từ khóa chứa nội dung đồi trụy...các kết quả phản cảm sẽ không được hiển thị
 - Thêm một số bộ lọc chặn trang web người lớn từ HostsVN
   
-## 3. Link cài đặt bộ lọc cho Serverless-DNS (Rethink DNS):
+## 3. Serverless-DNS (Rethink DNS):
+### Link cài đặt bộ lọc cho Serverless-DNS (Rethink DNS):
 https://serverless-dns.abpvn.workers.dev/
 #### DNS over HTTPS (DoH) chặn quảng cáo (ABVN List):
 https://serverless-dns.abpvn.workers.dev/1:AAIAEA==
