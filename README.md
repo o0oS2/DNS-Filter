@@ -1,5 +1,5 @@
 # DNS RIÊNG TƯ DỰA TRÊN NỀN TẢNG CLOUDFLARE ZERO TRUST
-## 1. DNS BỘ LỌC AN TOÀN:
+## 1. DNS - BỘ LỌC AN TOÀN:
 ### 1.1 DNS over HTTPS (DoH):
 https://ckzui5o99j.cloudflare-gateway.com/dns-query
 #### Link tải cấu hình cho IOS:
@@ -13,7 +13,7 @@ https://1drv.ms/u/s!Al8R__2PmYaUjQQeAGgZjabiKtHb?e=VEHpLd
 ### 1.3 IPv6
 2a06:98c1:54::14:dec9
 
-## 2. DNS BỘ LỌC CHO TRẺ EM:
+## 2. DNS - BỘ LỌC CHO TRẺ EM:
 ### 2.1 DNS over HTTPS (DoH):
 https://r3i5enfsbw.cloudflare-gateway.com/dns-query
 #### Linh tải cấu hình cho IOS:
@@ -33,7 +33,7 @@ https://1drv.ms/u/s!Al8R__2PmYaUjQcoRWDEVAHGlda4?e=qHKxYK
   * Bộ lọc chặn quảng cáo từ Adguard.com: https://github.com/AdguardTeam/AdGuardSDNSFilter
   * Bộ lọc chặn quảng cáo, bài bạc, mối đe doạ tại Việt Nam từ HostsVN: https://github.com/bigdargon/hostsVN
   * Bộ lọc Multi PRO Pro từ HAGEZI: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro-onlydomains.txt
-##### Chức năng chặn nội dung người lớn cho trẻ em (DNS BỘ LỌC CHO TRẺ EM):
+##### Chức năng chặn nội dung người lớn cho trẻ em (DNS - BỘ LỌC CHO TRẺ EM):
 - Tìm kiếm an toàn: Google, Bing, DuckduckGo Các (nội dung độc hại, từ khóa chứa nội dung đồi trụy...các kết quả phản cảm sẽ không được hiển thị)
 - Chế độ hạn chế Youtube: Các nội dung độc hại, từ khóa chứa nội dung đồi trụy...các kết quả phản cảm sẽ không được hiển thị
 - Thêm một số bộ lọc chặn trang web người lớn từ HostsVN
