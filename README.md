@@ -30,10 +30,10 @@ https://1drv.ms/u/s!Al8R__2PmYaUjQcoRWDEVAHGlda4?e=qHKxYK
 - Nội dung độc hại: Cờ bạc, Lạm dụng trẻ em, Bạo lực, Quảng cáo lừa đảo, Ma tuý, Hacking, Thù hận & chủ nghĩa cực đoan, Thô tục, Gian lận học đường, Tên miền Parked & Để bán, Thông tin không đáng tin cậy
 - Chặn địa chỉ IP tại Campuchia, Myanmar, Philipines
 - Tích hợp bộ lọc chặn từ nguồn:
--- Bộ lọc chặn quảng cáo từ Adguard.com: https://github.com/AdguardTeam/AdGuardSDNSFilter
--- Bộ lọc chặn quảng cáo, bài bạc, mối đe doạ tại Việt Nam từ HostsVN: https://github.com/bigdargon/hostsVN
--- Bộ lọc Multi PRO Pro từ HAGEZI: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro-onlydomains.txt
-##### Chức năng chặn nội dung người lớn cho trẻ em (DNS mục 2):
+  * Bộ lọc chặn quảng cáo từ Adguard.com: https://github.com/AdguardTeam/AdGuardSDNSFilter
+  * Bộ lọc chặn quảng cáo, bài bạc, mối đe doạ tại Việt Nam từ HostsVN: https://github.com/bigdargon/hostsVN
+  * Bộ lọc Multi PRO Pro từ HAGEZI: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro-onlydomains.txt
+##### Chức năng chặn nội dung người lớn cho trẻ em (Chặn quảng cáo, mã độc, lừa đảo, bài bạc, 18+):
 - Tìm kiếm an toàn: Google, Bing, DuckduckGo Các (nội dung độc hại, từ khóa chứa nội dung đồi trụy...các kết quả phản cảm sẽ không được hiển thị)
 - Chế độ hạn chế Youtube: Các nội dung độc hại, từ khóa chứa nội dung đồi trụy...các kết quả phản cảm sẽ không được hiển thị
 - Thêm một số bộ lọc chặn trang web người lớn từ HostsVN
