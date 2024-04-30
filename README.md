@@ -36,6 +36,7 @@ https://1drv.ms/u/s!Al8R__2PmYaUjQcoRWDEVAHGlda4?e=qHKxYK
 ##### Chức năng chặn nội dung người lớn cho trẻ em (DNS - BỘ LỌC CHO TRẺ EM):
 - Tìm kiếm an toàn: Google, Bing, DuckduckGo Các (nội dung độc hại, từ khóa chứa nội dung đồi trụy...các kết quả phản cảm sẽ không được hiển thị)
 - Chế độ hạn chế Youtube: Các nội dung độc hại, từ khóa chứa nội dung đồi trụy...các kết quả phản cảm sẽ không được hiển thị
+- Chặn chủ đề khiêu dâm, đồi truỵ dựa trên dữ liệu Cloudflare
 - Thêm một số bộ lọc chặn trang web người lớn từ HostsVN
   
 ## 3. Serverless-DNS (Rethink DNS):
