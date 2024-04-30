@@ -48,11 +48,11 @@ https://serverless-dns.abpvn.workers.dev/1:AAIAEA==
 Serverless-DNS (Rethink DNS) sử dụng nên tảng Cloudflare Workers, tối đa 100.000 truy vấn/1 ngày, CPU time max 10 ms, chuyển tiếp qua Google DNS
 
 ## 4. Danh sách lọc của tôi
-### 4.1 Danh sách cho phép bỏ qua quảng cáo:
+#### Danh sách cho phép bỏ qua quảng cáo:
 https://raw.githubusercontent.com/o0oS2/Filter-List/main/Allowlist
-### 4.2 Danh sách chặn từ ABPVN.com, Chongluadao.vn, theo dõi từ nền tảng:
+#### Danh sách chặn từ ABPVN.com, Chongluadao.vn, theo dõi từ nền tảng:
 https://raw.githubusercontent.com/o0oS2/Filter-List/main/Denylist
-### 4.3 Danh sách chặn khác:
+#### Danh sách chặn khác:
 https://raw.githubusercontent.com/o0oS2/Filter-List/main/Denylist_Me
 
 ## 5. Một số DNS chặn quảng cáo miễn phí:
@@ -82,10 +82,10 @@ https://raw.githubusercontent.com/o0oS2/Filter-List/main/Denylist_Me
   * Không được ổn định lắm
   * Có IPv4 và IPv6
 - Next DNS: https://my.nextdns.io/
-  * Có 4 máy chủ tại Hà Nội và Hồ Chí Minh
+  * Có 4 máy chủ tại Hà Nội và Hồ Chí Minh (không lo đứt cáp quang biển)
   * Phải tạo tài khoản và cấu hình để chặn quảng cáo, nội dung độc hại....
   * Miễn phí 300.000 truy vấn 1 tháng
   * Hoạt động rất nhanh và ổn định (chỉ kém Google DNS và Cloudflare)
   * Hướng dẫn: https://voz.vn/t/tat-tan-tat-ve-dich-vu-nextdns.522718/
-  * 
+ 
 Made with ♥ by o0oS2
