@@ -1,5 +1,5 @@
 # DNS RIÊNG TƯ DỰA TRÊN NỀN TẢNG CLOUDFLARE ZERO TRUST
-## 1. Cloudflare Zero Trust DNS chặn quảng cáo, mã độc, lừa đảo, bài bạc:
+## 1. Chặn quảng cáo, mã độc, lừa đảo, bài bạc:
 ### 1.1 DNS over HTTPS (DoH):
 https://ckzui5o99j.cloudflare-gateway.com/dns-query
 #### Link tải cấu hình cho IOS:
@@ -13,7 +13,7 @@ https://1drv.ms/u/s!Al8R__2PmYaUjQQeAGgZjabiKtHb?e=VEHpLd
 #### 1.3 IPv6
 2a06:98c1:54::14:dec9
 
-## 2. Cloudflare Zero Trust DNS chặn quảng cáo, mã độc, lừa đảo, bài bạc, 18+:
+## 2. Chặn quảng cáo, mã độc, lừa đảo, bài bạc, 18+:
 ### 2.1 DNS over HTTPS (DoH):
 https://r3i5enfsbw.cloudflare-gateway.com/dns-query
 #### Linh tải cấu hình cho IOS:
