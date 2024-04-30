@@ -4,7 +4,7 @@
 - Nội dung độc hại: Cờ bạc, Lạm dụng trẻ em, Bạo lực, Quảng cáo lừa đảo, Ma tuý, Hacking, Thù hận & chủ nghĩa cực đoan, Thô tục, Gian lận học đường, Tên miền Parked & Để bán, Thông tin không đáng tin cậy
 - Chặn địa chỉ IP tại Campuchia, Myanmar, Philipines
 - Tích hợp bộ lọc chặn từ nguồn:
-  * Bộ lọc chặn quảng cáo từ [Adguard.com] (https://github.com/AdguardTeam/AdGuardSDNSFilter)
+  * Bộ lọc chặn quảng cáo từ [Adguard.com](https://github.com/AdguardTeam/AdGuardSDNSFilter)
   * Bộ lọc chặn quảng cáo, bài bạc, mối đe doạ tại Việt Nam từ HostsVN: https://github.com/bigdargon/hostsVN
   * Bộ lọc Multi PRO từ HAGEZI: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro-onlydomains.txt
 ## 1. DNS - BỘ LỌC AN TOÀN:
