@@ -21,7 +21,7 @@ Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn 
 ## 2. DNS - BỘ LỌC CHO TRẺ EM:
 ### 2.1 DNS over HTTPS (DoH):
 - https://r3i5enfsbw.cloudflare-gateway.com/dns-query
-- Linh tải cấu hình cho IOS: [Link}(https://1drv.ms/u/s!Al8R__2PmYaUjQanCbp7HMJHbg9K?e=XKlcjB)
+- Linh tải cấu hình cho IOS: [Link](https://1drv.ms/u/s!Al8R__2PmYaUjQanCbp7HMJHbg9K?e=XKlcjB)
 ### 2.2 DNS over TLS (DoT):
 - r3i5enfsbw.cloudflare-gateway.com
 - Linh tải cấu hình cho IOS: [Link](https://1drv.ms/u/s!Al8R__2PmYaUjQcoRWDEVAHGlda4?e=qHKxYK)
