@@ -9,7 +9,8 @@ DNS tích hợp chức năng lọc từ Cloudflare bao gồm:
 - Rủi ro an ninh: phần mềm độc hại, lừa đảo, thư rác, phần mềm gián điệp, khai thác tiền điện tử.
 - Nội dung độc hại: Cờ bạc, Lạm dụng trẻ em, Bạo lực, Quảng cáo lừa đảo, Ma tuý, Hacking, Thù hận & chủ nghĩa cực đoan, Thô tục, Gian lận học đường, Tên miền Parked & Để bán, Thông tin không đáng tin cậy
 - Chặn địa chỉ IP tại Campuchia, Myanmar, Philipines
-- Bộ lọc chặn quảng cáo từ Adguard.com (https://github.com/AdguardTeam/AdGuardSDNSFilter), HostsVN (https://github.com/bigdargon/hostsVN)
+- Bộ lọc chặn quảng cáo từ Adguard.com https://github.com/AdguardTeam/AdGuardSDNSFilter
+- Bộ lọc chặn quảng cáo từ HostsVN https://github.com/bigdargon/hostsVN
 ### 4.1 DNS over HTTPS (DoH):
 https://ckzui5o99j.cloudflare-gateway.com/dns-query
 #### Link tải cấu hình cho IOS:
@@ -25,7 +26,8 @@ DNS tích hợp chức năng lọc từ Cloudflare bao gồm:
 - Rủi ro an ninh: phần mềm độc hại, lừa đảo, thư rác, phần mềm gián điệp, khai thác tiền điện tử.
 - Nội dung độc hại: Cờ bạc, Lạm dụng trẻ em, Bạo lực, Quảng cáo lừa đảo, Ma tuý, Hacking, Thù hận & chủ nghĩa cực đoan, Thô tục, Gian lận học đường, Tên miền Parked & Để bán, Thông tin không đáng tin cậy
 - Chặn địa chỉ IP tại Campuchia, Myanmar, Philipines
-- Bộ lọc chặn quảng cáo từ Adguard.com (https://github.com/AdguardTeam/AdGuardSDNSFilter), HostsVN (https://github.com/bigdargon/hostsVN)
+- Bộ lọc chặn quảng cáo từ Adguard.com https://github.com/AdguardTeam/AdGuardSDNSFilter
+- Bộ lọc chặn quảng cáo từ HostsVN https://github.com/bigdargon/hostsVN
 - Tìm kiếm an toàn: Google, Bing, DuckduckGo Các (nội dung độc hại, từ khóa chứa nội dung đồi trụy...các kết quả phản cảm sẽ không được hiển thị)
 - Chế độ hạn chế Youtube: Các nội dung độc hại, từ khóa chứa nội dung đồi trụy...các kết quả phản cảm sẽ không được hiển thị
 ### 5.1 DNS over HTTPS (DoH):
