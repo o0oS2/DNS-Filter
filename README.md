@@ -41,6 +41,8 @@ https://1drv.ms/u/s!Al8R__2PmYaUjQcoRWDEVAHGlda4?e=qHKxYK
 https://serverless-dns.abpvn.workers.dev/
 #### DNS over HTTPS (DoH) chặn quảng cáo (ABVN List):
 https://serverless-dns.abpvn.workers.dev/1:AAIAEA==
+#### Thông tin
+Serverless-DNS (Rethink DNS) sử dụng nên tảng Cloudflare Workers, tối đa 100.000 truy vấn/1 ngày, DNS chuyển tiếp qua Cloudflare DNS và Google DNS
 
 ## 4 Danh sách lọc của tôi
 ### 4.1 Danh sách cho phép bỏ qua quảng cáo:
