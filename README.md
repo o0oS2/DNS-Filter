@@ -1,4 +1,4 @@
-# DNS RIÊNG TƯ
+# DNS RIÊNG TƯ DỰA TRÊN NỀN TẢNG CLOUDFLARE ZERO TRUST
 ## 1. Cloudflare Zero Trust DNS chặn quảng cáo, mã độc, lừa đảo, bài bạc:
 DNS tích hợp chức năng lọc từ Cloudflare bao gồm:
 - Rủi ro an ninh: phần mềm độc hại, lừa đảo, thư rác, phần mềm gián điệp, khai thác tiền điện tử.
