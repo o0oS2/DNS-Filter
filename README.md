@@ -45,9 +45,9 @@ https://serverless-dns.abpvn.workers.dev/
 #### DNS over HTTPS (DoH) chặn quảng cáo (ABVN List):
 https://serverless-dns.abpvn.workers.dev/1:AAIAEA==
 #### Thông tin
-Serverless-DNS (Rethink DNS) sử dụng nên tảng Cloudflare Workers, tối đa 100.000 truy vấn/1 ngày, DNS chuyển tiếp qua Cloudflare DNS và Google DNS
+Serverless-DNS (Rethink DNS) sử dụng nên tảng Cloudflare Workers, tối đa 100.000 truy vấn/1 ngày, CPU time max 10 ms, chuyển tiếp qua Google DNS
 
-## 4 Danh sách lọc của tôi
+## 4. Danh sách lọc của tôi
 ### 4.1 Danh sách cho phép bỏ qua quảng cáo:
 https://raw.githubusercontent.com/o0oS2/Filter-List/main/Allowlist
 ### 4.2 Danh sách chặn từ ABPVN.com, Chongluadao.vn, theo dõi từ nền tảng:
@@ -55,4 +55,37 @@ https://raw.githubusercontent.com/o0oS2/Filter-List/main/Denylist
 ### 4.3 Danh sách chặn khác:
 https://raw.githubusercontent.com/o0oS2/Filter-List/main/Denylist_Me
 
+## 5. Một số DNS chặn quảng cáo miễn phí:
+- ControlD: https://controld.com/free-dns
+  * DNS đệ quy, có thể chọn bộ lọc dễ dàng
+  * Máy chủ tại Hồng Kông, Singapore, Nhật Bản ...
+  * Hoạt động rất nhanh và ổn định
+  * Có IPv4 và IPv6
+- Adguard: https://adguard-dns.io/en/public-dns.html
+  * Chưa có máy chủ tại Hồng Kông
+  * Hoạt động kém ổn định so với ControlD
+  * Có IPv4 và IPv6
+- Rethink: https://rethinkdns.com/configure
+  * Sắp tới sẽ dừng hỗ trợ miễn phí (chưa rõ ngày)
+  * Dễ dàng chọn bộ lọc
+  * Chuyển tiếp qua Cloudflare DNS
+  * Rất nhanh và ổn định do dùng nền tảng của Cloudflare
+  * Không có IPv4 và IPv6
+- ABPVN: https://private-dns.abpvn.com/
+  * Dùng Adguard Home lọc quảng cáo, máy chủ Anguard Home tại Hà Nội và Singapore
+  * Chuyển tiếp qua Google DNS
+  * Không được ổn định lắm
+  * Có IPv4 và IPv6
+- VietDNS: https://vietdns.vn/
+  * Máy chủ tại Hà Nội và Hồ Chí Minh
+  * chuyển tiếp qua Google DNS
+  * Không được ổn định lắm
+  * Có IPv4 và IPv6
+- Next DNS: https://my.nextdns.io/
+  * Có 4 máy chủ tại Hà Nội và Hồ Chí Minh
+  * Phải tạo tài khoản và cấu hình để chặn quảng cáo, nội dung độc hại....
+  * Miễn phí 300.000 truy vấn 1 tháng
+  * Hoạt động rất nhanh và ổn định (chỉ kém Google DNS và Cloudflare)
+  * Hướng dẫn: https://voz.vn/t/tat-tan-tat-ve-dich-vu-nextdns.522718/
+  * 
 Made with ♥ by o0oS2
