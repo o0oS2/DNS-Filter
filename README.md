@@ -1,29 +1,29 @@
 # DNS RIÊNG TƯ DỰA TRÊN NỀN TẢNG CLOUDFLARE ZERO TRUST
- ## 1. DNS - BỘ LỌC AN TOÀN:
-  ### 1.1 DNS over HTTPS (DoH):
+## 1. DNS - BỘ LỌC AN TOÀN:
+### 1.1 DNS over HTTPS (DoH):
 https://ckzui5o99j.cloudflare-gateway.com/dns-query
-   #### Link tải cấu hình cho IOS:
+#### Link tải cấu hình cho IOS:
 https://1drv.ms/u/s!Al8R__2PmYaUjQWxOwFM7SASk2on?e=ViZ0tk
-   #### DNS over HTTPS (DoH) chuyển tiếp qua Vercel:
+#### DNS over HTTPS (DoH) chuyển tiếp qua Vercel:
 https://abpvn.vercel.app
-  ### 1.2 DNS over TLS (DoT):
+### 1.2 DNS over TLS (DoT):
 ckzui5o99j.cloudflare-gateway.com
-   #### Linh tải cấu hình cho IOS:
+#### Linh tải cấu hình cho IOS:
 https://1drv.ms/u/s!Al8R__2PmYaUjQQeAGgZjabiKtHb?e=VEHpLd
-  ### 1.3 IPv6
+### 1.3 IPv6
 2a06:98c1:54::14:dec9
 
- ## 2. DNS - BỘ LỌC CHO TRẺ EM:
-  ### 2.1 DNS over HTTPS (DoH):
-   https://r3i5enfsbw.cloudflare-gateway.com/dns-query
-   #### Linh tải cấu hình cho IOS:
-   https://1drv.ms/u/s!Al8R__2PmYaUjQanCbp7HMJHbg9K?e=XKlcjB
-   ### 2.2 DNS over TLS (DoT):
-   r3i5enfsbw.cloudflare-gateway.com
-   #### Linh tải cấu hình cho IOS:
-   https://1drv.ms/u/s!Al8R__2PmYaUjQcoRWDEVAHGlda4?e=qHKxYK
-  ### 2.3 IPv6
-  2a06:98c1:54::15:29a5
+## 2. DNS - BỘ LỌC CHO TRẺ EM:
+### 2.1 DNS over HTTPS (DoH):
+https://r3i5enfsbw.cloudflare-gateway.com/dns-query
+#### Linh tải cấu hình cho IOS:
+https://1drv.ms/u/s!Al8R__2PmYaUjQanCbp7HMJHbg9K?e=XKlcjB
+### 2.2 DNS over TLS (DoT):
+r3i5enfsbw.cloudflare-gateway.com
+#### Linh tải cấu hình cho IOS:
+https://1drv.ms/u/s!Al8R__2PmYaUjQcoRWDEVAHGlda4?e=qHKxYK
+### 2.3 IPv6
+2a06:98c1:54::15:29a5
 
 #### Cả hai bộ lọc DNS đều tích hợp chức năng lọc từ Cloudflare bao gồm:
 - Rủi ro an ninh: phần mềm độc hại, lừa đảo, thư rác, phần mềm gián điệp, khai thác tiền điện tử.
