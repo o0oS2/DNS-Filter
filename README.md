@@ -4,7 +4,7 @@ Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn 
 - Rủi ro an ninh: phần mềm độc hại, lừa đảo, thư rác, phần mềm gián điệp, khai thác tiền điện tử.
 - Nội dung độc hại: Cờ bạc, Lạm dụng trẻ em, Bạo lực, Quảng cáo lừa đảo, Ma tuý, Hacking, Thù hận & chủ nghĩa cực đoan, Thô tục, Gian lận học đường, Tên miền Parked & Để bán, Thông tin không đáng tin cậy
 - Chặn địa chỉ IP tại Campuchia, Myanmar, Philipines
-- Tích hợp bộ lọc chặn từ nguồn:
+- Tích hợp bộ lọc chặn từ nguồn (cập nhật 3h00 hàng ngày):
   * Bộ lọc chặn quảng cáo từ [Adguard.com](https://github.com/AdguardTeam/AdGuardSDNSFilter)
   * Bộ lọc chặn quảng cáo, bài bạc, mối đe doạ tại Việt Nam từ [HostsVN](https://github.com/bigdargon/hostsVN)
   * Bộ lọc Multi PRO từ [HAGEZI](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro-onlydomains.txt)
