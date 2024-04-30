@@ -16,7 +16,7 @@ https://abpvn.vercel.app
 ckzui5o99j.cloudflare-gateway.com
 #### Linh tải cấu hình cho IOS:
 https://1drv.ms/u/s!Al8R__2PmYaUjQQeAGgZjabiKtHb?e=VEHpLd
-#### IPv6
+#### 1.3 IPv6
 2a06:98c1:54::14:dec9
 
 ## 2. Cloudflare Zero Trust DNS chặn quảng cáo, mã độc, lừa đảo, bài bạc, 18+:
@@ -40,7 +40,7 @@ https://1drv.ms/u/s!Al8R__2PmYaUjQcoRWDEVAHGlda4?e=qHKxYK
 https://serverless-dns.abpvn.workers.dev/
 #### DNS over HTTPS (DoH) chặn quảng cáo (ABVN List):
 https://serverless-dns.abpvn.workers.dev/1:AAIAEA==
-#### IPv6
+#### 2.3 IPv6
 2a06:98c1:54::15:29a5
 
 ## 4 Danh sách lọc của tôi
