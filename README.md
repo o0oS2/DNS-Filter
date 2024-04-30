@@ -1,4 +1,4 @@
-
+# DNS RIÊNG TƯ
 ## 1. Cloudflare Zero Trust DNS chặn quảng cáo, mã độc, lừa đảo, bài bạc:
 DNS tích hợp chức năng lọc từ Cloudflare bao gồm:
 - Rủi ro an ninh: phần mềm độc hại, lừa đảo, thư rác, phần mềm gián điệp, khai thác tiền điện tử.
@@ -16,6 +16,9 @@ https://abpvn.vercel.app
 ckzui5o99j.cloudflare-gateway.com
 #### Linh tải cấu hình cho IOS:
 https://1drv.ms/u/s!Al8R__2PmYaUjQQeAGgZjabiKtHb?e=VEHpLd
+#### IPv6
+2a06:98c1:54::14:dec9
+
 ## 2. Cloudflare Zero Trust DNS chặn quảng cáo, mã độc, lừa đảo, bài bạc, 18+:
 DNS tích hợp chức năng lọc từ Cloudflare bao gồm:
 - Rủi ro an ninh: phần mềm độc hại, lừa đảo, thư rác, phần mềm gián điệp, khai thác tiền điện tử.
@@ -37,11 +40,15 @@ https://1drv.ms/u/s!Al8R__2PmYaUjQcoRWDEVAHGlda4?e=qHKxYK
 https://serverless-dns.abpvn.workers.dev/
 #### DNS over HTTPS (DoH) chặn quảng cáo (ABVN List):
 https://serverless-dns.abpvn.workers.dev/1:AAIAEA==
-## 4.1 Danh sách cho phép bỏ qua quảng cáo:
+#### IPv6
+2a06:98c1:54::15:29a5
+
+## 4 Danh sách lọc của tôi
+### 4.1 Danh sách cho phép bỏ qua quảng cáo:
 https://raw.githubusercontent.com/o0oS2/Filter-List/main/Allowlist
-## 4.2 Danh sách chặn từ ABPVN.com, Chongluadao.vn, theo dõi từ nền tảng:
+### 4.2 Danh sách chặn từ ABPVN.com, Chongluadao.vn, theo dõi từ nền tảng:
 https://raw.githubusercontent.com/o0oS2/Filter-List/main/Denylist
-## 4.3 Danh sách chặn khác:
+### 4.3 Danh sách chặn khác:
 https://raw.githubusercontent.com/o0oS2/Filter-List/main/Denylist_Me
 
 Made with ♥ by o0oS2
