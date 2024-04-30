@@ -10,7 +10,7 @@ https://abpvn.vercel.app
 ckzui5o99j.cloudflare-gateway.com
 #### Linh tải cấu hình cho IOS:
 https://1drv.ms/u/s!Al8R__2PmYaUjQQeAGgZjabiKtHb?e=VEHpLd
-#### 1.3 IPv6
+### 1.3 IPv6
 2a06:98c1:54::14:dec9
 
 ## 2. Chặn quảng cáo, mã độc, lừa đảo, bài bạc, 18+:
@@ -22,7 +22,7 @@ https://1drv.ms/u/s!Al8R__2PmYaUjQanCbp7HMJHbg9K?e=XKlcjB
 r3i5enfsbw.cloudflare-gateway.com
 #### Linh tải cấu hình cho IOS:
 https://1drv.ms/u/s!Al8R__2PmYaUjQcoRWDEVAHGlda4?e=qHKxYK
-#### 2.3 IPv6
+### 2.3 IPv6
 2a06:98c1:54::15:29a5
 
 #### Cả hai DNS đều tích hợp chức năng lọc từ Cloudflare bao gồm:
