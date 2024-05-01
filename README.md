@@ -30,7 +30,7 @@ Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn 
 - Thêm một số bộ lọc chặn trang web người lớn từ [HostsVN](https://github.com/bigdargon/hostsVN)
 
 ### Tự tạo DNS dựa trên nền tảng Cloudflare Zero Trust
-[Hướng dẫn](https://voz.vn/t/huong-dan-dung-cloudflare-zero-trust.822971/), [Tạo Cấu hình cho IOS](https://dns.notjakob.com/tool.html), [Kiểm tra DNS](https://www.dnscheck.tools/), [Kiểm tra chặn quảng cáo](https://d3ward.github.io/toolz/adblock.html)
+[Hướng dẫn - Github](https://github.com/bigdargon/hostsVN/wiki/NextDNS), [Hướng dẫn - VOZ](https://voz.vn/t/huong-dan-dung-cloudflare-zero-trust.822971/), [Tạo Cấu hình cho IOS](https://dns.notjakob.com/tool.html), [Kiểm tra DNS](https://www.dnscheck.tools/), [Kiểm tra chặn quảng cáo](https://d3ward.github.io/toolz/adblock.html)
 
 ## 3. Một số DNS chặn quảng cáo miễn phí:
 - [Số 1. Next DNS](https://my.nextdns.io/)
