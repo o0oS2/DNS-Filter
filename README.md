@@ -8,19 +8,19 @@ Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn 
 ## 1. DNS - BỘ LỌC AN TOÀN:
 ### - DNS over HTTPS (DoH):
 * https://ckzui5o99j.cloudflare-gateway.com/dns-query
-* Link tải cấu hình cho IOS: [Link](https://1drv.ms/u/s!Al8R__2PmYaUjQWxOwFM7SASk2on?e=ViZ0tk)
+* Link tải cấu hình cho IOS:[Link 1](https://public.dm.files.1drv.com/y4mhQWOI1vm3Dbs4Aw3Jvbl5E_Ejm2Fhw2XXu-23Mo9US1HXFkSADcw7KcLEPUsRKu_Q5Nyr213aDDTfwN75UXfYki082DDBo8gFRa8lvVkSz4CO2ZjSBIaGEThGuM6-n5yRpFjaUM_xmd6Wa_qt6-HFN-lm6wB3IABo6E3SvEjWGE9J0PIIoHuGATzSG41KZeCEHeK91HlCS9iAb32jSjS7O5wRiOZ39prp5dbWLPsDLc),  [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjQWxOwFM7SASk2on?e=ViZ0tk)
 ### - DNS over TLS (DoT):
 * ckzui5o99j.cloudflare-gateway.com
-* Linh tải cấu hình cho IOS: [Link](https://1drv.ms/u/s!Al8R__2PmYaUjQQeAGgZjabiKtHb?e=VEHpLd)
+* Linh tải cấu hình cho IOS: [Link 1](https://2dfnlg.dm.files.1drv.com/y4mYR6R1ELgRxu_GrCgqn-yMBuZSGDqYNo-Fz4TPlsbqWlCqc-hNoJucJEIO91se8jYaBBldC7_i3w1HLWENuOwqPyHuuc700V-f_RQQV4DGUes88R5b2zVF8om7QfRJJykWpuuwxLhWFRaBme5-SaLPZOllupbZBmOwF-fQgee339ll7lfRr-la7FSwPcXFAYSBT2DCEeNy2bgbpNLorw8OA), [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjQQeAGgZjabiKtHb?e=VEHpLd)
 ### - IPv6: 2a06:98c1:54::14:dec9
 
 ## 2. DNS - BỘ LỌC CHO TRẺ EM:
 ### - DNS over HTTPS (DoH):
 * https://r3i5enfsbw.cloudflare-gateway.com/dns-query
-* Linh tải cấu hình cho IOS: [Link](https://1drv.ms/u/s!Al8R__2PmYaUjQanCbp7HMJHbg9K?e=XKlcjB)
+* Linh tải cấu hình cho IOS: [Link 1](https://0dcyig.dm.files.1drv.com/y4m6vxJo8t3XR0XcgjS9tKtBvBjJu4SjssfjlCrN91uRn5cKHSjlDctx9w6AkQa2bE9L9ltOtK2hiKSgPaaALn-1yZ4NT8hB71dn5lXfAj5XqwF_05RhmPckxLcK3VFaE0KevLbeAZH-dnyKbhyKmoWqeyaNNKV9lCejlDOD0M07GkDNAeRuLwjxUDG8Kg0HFy5AMqnaBlSpMwB5iGcCkSegA), [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjQanCbp7HMJHbg9K?e=XKlcjB)
 ### - DNS over TLS (DoT):
 * r3i5enfsbw.cloudflare-gateway.com
-* Linh tải cấu hình cho IOS: [Link](https://1drv.ms/u/s!Al8R__2PmYaUjQcoRWDEVAHGlda4?e=qHKxYK)
+* Linh tải cấu hình cho IOS: [Link 1](https://zzcyig.dm.files.1drv.com/y4mqDYDzRHVNF7qHlJo7qZKIpthJvWbOrRn5WnC5XYHFfGD8QP0hSs6IkAJeGBQZ2P-oHBSsazvONfmJTgSHeubvfNCftS7El-DRWx-zls7EaGuU1ZXlvrOZE15WhFY6QWWe2ttJpbgGuucV9uy5YVrFuXacUypkyP_cErzN9kfjghElVI9N0Oflav7e_9xgfI3CFn56Ct4-HKGg4rF6Ja4Zw), [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjQcoRWDEVAHGlda4?e=qHKxYK)
 ### - IPv6: 2a06:98c1:54::15:29a5
 
 ##### Chức năng chặn nội dung người lớn cho trẻ em:
