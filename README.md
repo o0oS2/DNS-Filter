@@ -38,7 +38,7 @@ Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn 
   * Phải tạo tài khoản và cấu hình để chặn quảng cáo, nội dung độc hại....
   * Miễn phí 300.000 truy vấn 1 tháng
   * Hoạt động rất nhanh và ổn định (chỉ sau Google DNS và Cloudflare)
-  * Hướng dẫn: [Link](https://voz.vn/t/tat-tan-tat-ve-dich-vu-nextdns.522718/)
+  * Hướng dẫn: [Link Github](https://github.com/bigdargon/hostsVN/wiki/NextDNS), [Link VOZ](https://voz.vn/t/tat-tan-tat-ve-dich-vu-nextdns.522718/)
 - [Số 2. ControlD](https://controld.com/free-dns)
   * DNS đệ quy, có thể chọn bộ lọc dễ dàng
   * Máy chủ tại Hồng Kông, Singapore, Nhật Bản ...
