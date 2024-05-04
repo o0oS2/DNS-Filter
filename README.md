@@ -8,7 +8,7 @@ Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn 
 ## 1. DNS - BỘ LỌC AN TOÀN:
 ### - DNS over HTTPS (DoH):
 * https://ckzui5o99j.cloudflare-gateway.com/dns-query
-* Link tải cấu hình cho IOS:[Link 1](https://public.dm.files.1drv.com/y4mhQWOI1vm3Dbs4Aw3Jvbl5E_Ejm2Fhw2XXu-23Mo9US1HXFkSADcw7KcLEPUsRKu_Q5Nyr213aDDTfwN75UXfYki082DDBo8gFRa8lvVkSz4CO2ZjSBIaGEThGuM6-n5yRpFjaUM_xmd6Wa_qt6-HFN-lm6wB3IABo6E3SvEjWGE9J0PIIoHuGATzSG41KZeCEHeK91HlCS9iAb32jSjS7O5wRiOZ39prp5dbWLPsDLc),  [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjQWxOwFM7SASk2on?e=ViZ0tk)
+* Link tải cấu hình cho IOS: [Link 1](https://public.dm.files.1drv.com/y4mhQWOI1vm3Dbs4Aw3Jvbl5E_Ejm2Fhw2XXu-23Mo9US1HXFkSADcw7KcLEPUsRKu_Q5Nyr213aDDTfwN75UXfYki082DDBo8gFRa8lvVkSz4CO2ZjSBIaGEThGuM6-n5yRpFjaUM_xmd6Wa_qt6-HFN-lm6wB3IABo6E3SvEjWGE9J0PIIoHuGATzSG41KZeCEHeK91HlCS9iAb32jSjS7O5wRiOZ39prp5dbWLPsDLc),  [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjQWxOwFM7SASk2on?e=ViZ0tk)
 ### - DNS over TLS (DoT):
 * ckzui5o99j.cloudflare-gateway.com
 * Linh tải cấu hình cho IOS: [Link 1](https://2dfnlg.dm.files.1drv.com/y4mYR6R1ELgRxu_GrCgqn-yMBuZSGDqYNo-Fz4TPlsbqWlCqc-hNoJucJEIO91se8jYaBBldC7_i3w1HLWENuOwqPyHuuc700V-f_RQQV4DGUes88R5b2zVF8om7QfRJJykWpuuwxLhWFRaBme5-SaLPZOllupbZBmOwF-fQgee339ll7lfRr-la7FSwPcXFAYSBT2DCEeNy2bgbpNLorw8OA), [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjQQeAGgZjabiKtHb?e=VEHpLd)
