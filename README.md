@@ -6,11 +6,11 @@ Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn 
 - Chặn địa chỉ IP tại Campuchia, Myanmar, Philipines (nhiều trang web lừa đảo hay đặt máy chủ tại những quốc gia này)
 #### Tích hợp thêm bộ lọc chặn bên thứ 3 (cập nhật 3h00 sáng hàng ngày): 
 ##### [Multi Normal - HAGEZI](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#normal):
-Chặn Quảng cáo, Liên kết, Theo dõi, Số liệu, Dữ liệu đo từ xa, Lừa đảo, Phần mềm độc hại, Lừa đảo, Giả mạo, Tiền xu và các "Tào lao" khác
+- Chặn Quảng cáo, Liên kết, Theo dõi, Số liệu, Dữ liệu đo từ xa, Lừa đảo, Phần mềm độc hại, Lừa đảo, Giả mạo, Tiền xu và các "Tào lao" khác
 ##### [Adguard.com](https://github.com/AdguardTeam/AdGuardSDNSFilter):
-Bộ lọc bao gồm một số bộ lọc khác (bộ lọc Cơ sở AdGuard, bộ lọc Truyền thông xã hội, bộ lọc Chống theo dõi, bộ lọc Quảng cáo trên thiết bị di động, EasyList và EasyPrivacy) và được đơn giản hóa cụ thể để tương thích tốt hơn với chặn quảng cáo cấp DNS
+- Bộ lọc bao gồm một số bộ lọc khác (bộ lọc Cơ sở AdGuard, bộ lọc Truyền thông xã hội, bộ lọc Chống theo dõi, bộ lọc Quảng cáo trên thiết bị di động, EasyList và EasyPrivacy) và được đơn giản hóa cụ thể để tương thích tốt hơn với chặn quảng cáo cấp DNS
 ##### [HostsVN](https://github.com/bigdargon/hostsVN):
-Bộ lọc chặn quảng cáo, mã độc, cờ bạc tại Việt Nam
+- Bộ lọc chặn quảng cáo, mã độc, cờ bạc tại Việt Nam
 ## 1. DNS - BỘ LỌC AN TOÀN:
 ### - DNS over HTTPS (DoH):
 * https://ckzui5o99j.cloudflare-gateway.com/dns-query
