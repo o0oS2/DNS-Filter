@@ -9,7 +9,7 @@ Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn 
 - [Adguard.com](https://github.com/AdguardTeam/AdGuardSDNSFilter): Bộ lọc bao gồm một số bộ lọc khác (bộ lọc Cơ sở AdGuard, bộ lọc Truyền thông xã hội, bộ lọc Chống theo dõi, bộ lọc Quảng cáo trên thiết bị di động, EasyList và EasyPrivacy) và được đơn giản hóa cụ thể để tương thích tốt hơn với chặn quảng cáo cấp DNS
 - [HostsVN](https://github.com/bigdargon/hostsVN): Bộ lọc chặn quảng cáo, mã độc, cờ bạc tại Việt Nam
 - [Danh sách chặn của tôi](https://raw.githubusercontent.com/o0oS2/DNS-Filter/main/Denylist): Danh sách chặn bổ sung thêm.
-#### Danh sách những tên miền được cho phép:
+#### Danh sách những tên miền được cho phép (sửa lỗi bộ lọc bên thứ 3 chặn nhầm):
 - [NextDNS](https://raw.githubusercontent.com/nextdns/click-tracking-domains/main/domains): Cho phép bấm vào link tiếp thị và theo dõi
 - [Bộ lọc của tôi](https://raw.githubusercontent.com/o0oS2/DNS-Filter/main/Allowlist): Bổ sung thêm cho NextDNS
 ## 1. DNS - BỘ LỌC AN TOÀN:
