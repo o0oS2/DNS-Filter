@@ -8,6 +8,7 @@ Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn 
 - [Multi Normal - HAGEZI](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#normal): Chặn Quảng cáo, Liên kết, Theo dõi, Số liệu, Dữ liệu đo từ xa, Lừa đảo, Phần mềm độc hại, Lừa đảo, Giả mạo, Tiền xu...
 - [Adguard.com](https://github.com/AdguardTeam/AdGuardSDNSFilter): Bộ lọc bao gồm một số bộ lọc khác (bộ lọc Cơ sở AdGuard, bộ lọc Truyền thông xã hội, bộ lọc Chống theo dõi, bộ lọc Quảng cáo trên thiết bị di động, EasyList và EasyPrivacy) và được đơn giản hóa cụ thể để tương thích tốt hơn với chặn quảng cáo cấp DNS
 - [HostsVN](https://github.com/bigdargon/hostsVN): Bộ lọc chặn quảng cáo, mã độc, cờ bạc tại Việt Nam
+- [Chống lừa đảo](https://chongluadao.vn/thong-ke): Bộ lọc chặn trang lừa đảo tại Việt Nam, dự án dừng hoạt động từ 09/2023
 - [Danh sách chặn của tôi](https://raw.githubusercontent.com/o0oS2/DNS-Filter/main/Denylist): Danh sách chặn bổ sung thêm.
 #### Danh sách những tên miền được cho phép (sửa lỗi bộ lọc bên thứ 3 chặn nhầm):
 - [NextDNS](https://raw.githubusercontent.com/nextdns/click-tracking-domains/main/domains): Cho phép bấm vào link tiếp thị và theo dõi
