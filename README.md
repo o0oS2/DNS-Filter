@@ -48,7 +48,7 @@ Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn 
 ### Tự tạo DNS dựa trên nền tảng Cloudflare Zero Trust
 [Hướng dẫn - VOZ](https://voz.vn/t/huong-dan-dung-cloudflare-zero-trust.822971/), [Tạo Cấu hình cho IOS](https://dns.notjakob.com/tool.html), [Kiểm tra DNS](https://www.dnscheck.tools/), [Kiểm tra chặn quảng cáo](https://d3ward.github.io/toolz/adblock.html)
 
-## 3. Một số DNS chặn quảng cáo miễn phí:
+## 4. Một số DNS chặn quảng cáo miễn phí:
 - [Số 1. Next DNS](https://my.nextdns.io/)
   * Có 4 máy chủ tại Hà Nội và Hồ Chí Minh (không lo đứt cáp quang biển)
   * Phải tạo tài khoản và cấu hình để chặn quảng cáo, nội dung độc hại....
