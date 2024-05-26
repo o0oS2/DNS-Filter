@@ -1,32 +1,42 @@
 # DNS RIÊNG TƯ DỰA TRÊN NỀN TẢNG [CLOUDFLARE ZERO TRUST](https://www.cloudflare.com/zero-trust/)
 Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn định (chỉ sau Google DNS)
+## 1. DNS - BỘ LỌC AN TOÀN
+### - DNS over HTTPS (DoH):
+* https://15gzo9hqdn.cloudflare-gateway.com/dns-query
+* Link tải cấu hình cho IOS: [Link 1](https://0zdtng.dm.files.1drv.com/y4mXK4NuDD466OP_Agn45WIhXY4K18JMKRxlyElOq1nsxs1QUAeF37OHRqh92Ue2b45BSWGhlOTr4lGPN_zlfCFGjdbqWajGVQhkSrmUTapmSrj18g0yH7T6fDeaDY5HIrRsAWzimpnUlVaQwdaxe09yLklEIsPWU_F2xEqOpi73jKewma6Glge_RYvIwhul0a8yb79ynFwLNYdMc0hicZYzA), [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjRV5RtqBp4TYINZh?e=oqr7fp)
+ ### - DNS over HTTPS (DoH):
+* 15gzo9hqdn.cloudflare-gateway.com
+* Link tải cấu hình cho IOS: [Link 1](https://1ddtng.dm.files.1drv.com/y4mmWYN9TpmorTZCnzynvyeE2QBJc2shzCm9LY-CkO4dciSYE-e88ovjdCpvWNYWtuQk6oBJUfsc_he3fJcsSw_nxZX4GnpLb6kjXhI3FT4tAJi3ODZFFpF4MGnRYAO97e6TQhBPwcSq39qTqc4HQ7cgfrC-dzJhItlH_eFf-2S6sZz08vZc5LHngd3x_DcTNat-rXp1NUp0u07cXjb1Qbfww), [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjRSUrmnv_xk0t7M0?e=KEnVEy)
+### IPv6: 2a06:98c1:54::15:e9b5
 #### DNS tích hợp chức năng lọc dựa trên dữ liệu [Cloudflare](https://www.cloudflare.com/), cập nhật thời gian thực:
 - Rủi ro an ninh: phần mềm độc hại, lừa đảo, thư rác, phần mềm gián điệp, khai thác tiền điện tử.
 - Nội dung độc hại: Cờ bạc, Lạm dụng trẻ em, Bạo lực, Quảng cáo lừa đảo, Ma tuý, Hacking, Thù hận & chủ nghĩa cực đoan, Thô tục, Gian lận học đường, Tên miền Parked & Để bán, Thông tin không đáng tin cậy.
 - Chặn địa chỉ IP tại Campuchia, Myanmar, Philipines (nhiều trang web lừa đảo hay đặt máy chủ tại những quốc gia này).
-#### Tích hợp thêm bộ lọc chặn bên thứ 3 (cập nhật 3h00 sáng hàng ngày): 
+
+## 2. DNS - BỘ LỌC CHẶN QUẢNG CÁO, THEO DÕI:
+- DNS Bộ lọc an toàn + Chặn quảng cáo, theo dõi.
+### - DNS over HTTPS (DoH):
+* https://ckzui5o99j.cloudflare-gateway.com/dns-query
+* Link tải cấu hình cho IOS: [Link 1](https://0ddtng.dm.files.1drv.com/y4mkPose302b211CiQG-HWte83R2oAat_uWPwI9-BdxOMmO4_x8ly8tuf1fADN2wJJWY7t5WQy-s_wStAQD9Lj-SqV52WIGwnRwVs2JSbZ-a1owYJQBwRBJa26uLKopjS3tdLIcvzlItM-42yJmg7okFY1kfWGE6epzJeAP2x51rxK8fNmYIEZm6L_htuzfoLGqctPq85e9QH6FZKpgfzM8nA),  [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjRC34aOtLe5-YuMV?e=llHw7A)
+### - DNS over TLS (DoT):
+* ckzui5o99j.cloudflare-gateway.com
+* Linh tải cấu hình cho IOS: [Link 1](https://zzdtng.dm.files.1drv.com/y4m3bk_mIWLQUHoldhNhBKXYtffew6Ed78NVgWM7bJiEDrRRFzXVSkNmElFFlX8xxBkQAa5Errftf3M-6WlM4Q2Y-RxGUPEiOzMt3f0WGRMwWLyUATKeayEBEtECdU2awhHxM0eVVaoM6y5-uinMOQ7H7ZM5MxfsRsUdzrtgcOB4a5W-a6lJGqDVXQFXPUwM_l8qu4KE9szQi2OTbuH56IdyQ), [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjRFNP-meo9oS1RNQ?e=NCJYOq)
+### - IPv6: 2a06:98c1:54::14:dec9
+#### Tích hợp bộ lọc chặn quảng cáo, theo dõi bên thứ 3 (cập nhật 3h00 sáng hàng ngày): 
 - [Adguard.com](https://github.com/AdguardTeam/AdGuardSDNSFilter): Bộ lọc bao gồm một số bộ lọc khác (bộ lọc Cơ sở AdGuard, bộ lọc Truyền thông xã hội, bộ lọc Chống theo dõi, bộ lọc Quảng cáo trên thiết bị di động, EasyList và EasyPrivacy) và được đơn giản hóa cụ thể để tương thích tốt hơn với chặn quảng cáo cấp DNS.
 - [HostsVN](https://github.com/bigdargon/hostsVN): Bộ lọc chặn quảng cáo, mã độc, lừa đảo, cờ bạc tại Việt Nam.
 - [Danh sách chặn của tôi](https://raw.githubusercontent.com/o0oS2/DNS-Filter/main/Denylist): Danh sách chặn bổ sung thêm (chặn quảng cáo, cờ bạc, lừa đảo).
 #### Danh sách những tên miền được cho phép (sửa lỗi bộ lọc bên thứ 3 chặn nhầm):
 - [NextDNS](https://raw.githubusercontent.com/nextdns/click-tracking-domains/main/domains): Cho phép bấm vào link tiếp thị và theo dõi.
 - [Bộ lọc của tôi](https://raw.githubusercontent.com/o0oS2/DNS-Filter/main/Allowlist): Bổ sung thêm cho NextDNS.
-## 1. DNS - BỘ LỌC AN TOÀN:
-### - DNS over HTTPS (DoH):
-* https://ckzui5o99j.cloudflare-gateway.com/dns-query
-* Link tải cấu hình cho IOS: [Link 1](https://1zfnlg.dm.files.1drv.com/y4m8RVBSoHBBKsJTKkuUKrrcN8I6DeDELYiSK5xPWjqnT2lXeuMjPgnj2lEukCRJwkDVCF-S2MSbScqwLiTBF3n0SeKUsNNEydoz4QpnUWZmB9aBCRxhUb_KVKgw_rzST93apAI2IJlgaZi0GVoa9MkmZwWPDQelZYV4_zoQhuRcSlM5Rpwe78SF0x7JnaDbY4Jv2bpTWdi_hoCuK83LqQ88w),  [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjQWxOwFM7SASk2on?e=ViZ0tk)
-### - DNS over TLS (DoT):
-* ckzui5o99j.cloudflare-gateway.com
-* Linh tải cấu hình cho IOS: [Link 1](https://2dfnlg.dm.files.1drv.com/y4mYR6R1ELgRxu_GrCgqn-yMBuZSGDqYNo-Fz4TPlsbqWlCqc-hNoJucJEIO91se8jYaBBldC7_i3w1HLWENuOwqPyHuuc700V-f_RQQV4DGUes88R5b2zVF8om7QfRJJykWpuuwxLhWFRaBme5-SaLPZOllupbZBmOwF-fQgee339ll7lfRr-la7FSwPcXFAYSBT2DCEeNy2bgbpNLorw8OA), [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjQQeAGgZjabiKtHb?e=VEHpLd)
-### - IPv6: 2a06:98c1:54::14:dec9
-
-## 2. DNS - BỘ LỌC CHO TRẺ EM:
+## 3. DNS - BỘ LỌC CHO TRẺ EM:
+- DNS bộ lọc an toàn + Chặn quảng cáo, theo dõi + chặn nội dung khiêu dâm + tìm kiếm an toàn.
 ### - DNS over HTTPS (DoH):
 * https://r3i5enfsbw.cloudflare-gateway.com/dns-query
-* Linh tải cấu hình cho IOS: [Link 1](https://0dcyig.dm.files.1drv.com/y4m6vxJo8t3XR0XcgjS9tKtBvBjJu4SjssfjlCrN91uRn5cKHSjlDctx9w6AkQa2bE9L9ltOtK2hiKSgPaaALn-1yZ4NT8hB71dn5lXfAj5XqwF_05RhmPckxLcK3VFaE0KevLbeAZH-dnyKbhyKmoWqeyaNNKV9lCejlDOD0M07GkDNAeRuLwjxUDG8Kg0HFy5AMqnaBlSpMwB5iGcCkSegA), [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjQanCbp7HMJHbg9K?e=XKlcjB)
+* Linh tải cấu hình cho IOS: [Link 1](https://zjdtng.dm.files.1drv.com/y4mEZmISF3JsDSEc52rBZd9EMAocyJ0J2eBqRtt_wd_wm7XdexABwSFHqwBdX42gm23KP-r7ZS20qrSgWR_UPNpESZwNmEPU3EuSTduVAX4UyjqD0GTPVvU1LY0o6mmUacpGEptOlvHl8KpD-QygEHSxUqx-20gYy3jvT_BmJgIjt1M-5No3Zt1bzsK_Olsn3tvLrtyPEyIKcooB0ehX6Zi-A), [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjRIOGoSnrXXaps-M?e=2chE77)
 ### - DNS over TLS (DoT):
 * r3i5enfsbw.cloudflare-gateway.com
-* Linh tải cấu hình cho IOS: [Link 1](https://zzcyig.dm.files.1drv.com/y4mqDYDzRHVNF7qHlJo7qZKIpthJvWbOrRn5WnC5XYHFfGD8QP0hSs6IkAJeGBQZ2P-oHBSsazvONfmJTgSHeubvfNCftS7El-DRWx-zls7EaGuU1ZXlvrOZE15WhFY6QWWe2ttJpbgGuucV9uy5YVrFuXacUypkyP_cErzN9kfjghElVI9N0Oflav7e_9xgfI3CFn56Ct4-HKGg4rF6Ja4Zw), [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjQcoRWDEVAHGlda4?e=qHKxYK)
+* Linh tải cấu hình cho IOS: [Link 1](https://ztdtng.dm.files.1drv.com/y4mZC-oChK2mycCCpDF5dB_FyxKk5AepIEfQ7MjpUruR6WFYi6YzNn6PU_aHHuqs5o_Y8LiiLxZ7d2RarXY9e1BLNrgh_ELefysNlNfSsdKqTMwAgyEat6MwTqQn3rEFGttkj89luoDjFOJwlYVcMSOOVG4V2Tu3EdjqdAQ5Xvn8lLbEZFTTwzr3vso7YrAtpnTacMhk-Eph0iUgD5fzBSLaQ), [Link 2](https://1drv.ms/u/s!Al8R__2PmYaUjRNqrXXappKIQNrz?e=pjZe8s)
 ### - IPv6: 2a06:98c1:54::15:29a5
 
 ##### Chức năng chặn nội dung người lớn cho trẻ em:
