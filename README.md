@@ -27,7 +27,7 @@ Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn 
 - [Danh sách chặn của tôi](https://raw.githubusercontent.com/o0oS2/DNS-Filter/main/Denylist): Danh sách chặn bổ sung thêm (chặn quảng cáo, cờ bạc, lừa đảo).
 #### Danh sách những tên miền được cho phép (sửa lỗi bộ lọc bên thứ 3 chặn nhầm):
 - [NextDNS](https://raw.githubusercontent.com/nextdns/click-tracking-domains/main/domains): Cho phép bấm vào link tiếp thị và theo dõi.
-- [Bộ lọc của tôi](https://raw.githubusercontent.com/o0oS2/DNS-Filter/main/Allowlist): Bổ sung thêm cho NextDNS.
+- [Danh sách cho phép của tôi](https://raw.githubusercontent.com/o0oS2/DNS-Filter/main/Allowlist): Bổ sung thêm cho NextDNS.
 ## 3. DNS - BỘ LỌC CHO TRẺ EM:
 - DNS bộ lọc an toàn + Chặn quảng cáo, theo dõi + chặn nội dung khiêu dâm + tìm kiếm an toàn.
 ### - DNS over HTTPS (DoH):
