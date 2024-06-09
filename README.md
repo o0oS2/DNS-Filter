@@ -3,10 +3,10 @@ Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn 
 ## 1. DNS - BỘ LỌC AN TOÀN
 ### - DNS over HTTPS (DoH):
 * https://15gzo9hqdn.cloudflare-gateway.com/dns-query
-* Link tải cấu hình cho IOS: [Link 1](), [Link 2](https://app.box.com/s/3irg0nqq93jmhjreu03n6h0f60sejhh5)
+* Link tải cấu hình cho IOS: [Link](https://app.box.com/s/3irg0nqq93jmhjreu03n6h0f60sejhh5)
  ### - DNS over TLS (DoT):
 * 15gzo9hqdn.cloudflare-gateway.com
-* Link tải cấu hình cho IOS: [Link 1](), [Link 2](https://app.box.com/s/ky52fiqeeidjiyewxzpzu1qc3l10l6ea)
+* Link tải cấu hình cho IOS: [Link](https://app.box.com/s/ky52fiqeeidjiyewxzpzu1qc3l10l6ea)
 ### IPv6: 2a06:98c1:54::15:e9b5
 #### DNS tích hợp chức năng lọc dựa trên dữ liệu [Cloudflare](https://www.cloudflare.com/), cập nhật thời gian thực:
 - Rủi ro an ninh: phần mềm độc hại, lừa đảo, thư rác, phần mềm gián điệp, khai thác tiền điện tử.
@@ -17,10 +17,10 @@ Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn 
 - DNS Bộ lọc an toàn + Chặn quảng cáo, theo dõi.
 ### - DNS over HTTPS (DoH):
 * https://ckzui5o99j.cloudflare-gateway.com/dns-query
-* Link tải cấu hình cho IOS: [Link 1](),  [Link 2](https://app.box.com/s/ecz35292kaimiuw1njtn9y34mieqnc7z)
+* Link tải cấu hình cho IOS: [Link](https://app.box.com/s/ecz35292kaimiuw1njtn9y34mieqnc7z)
 ### - DNS over TLS (DoT):
 * ckzui5o99j.cloudflare-gateway.com
-* Linh tải cấu hình cho IOS: [Link 1](), [Link 2](https://app.box.com/s/dnqyazkux2av1cc1tr0zsxq9w7er5o0l)
+* Linh tải cấu hình cho IOS: [Link](https://app.box.com/s/dnqyazkux2av1cc1tr0zsxq9w7er5o0l)
 ### - IPv6: 2a06:98c1:54::14:dec9
 #### Tích hợp bộ lọc chặn quảng cáo, theo dõi bên thứ 3 (cập nhật 3h00 sáng hàng ngày): 
 - [Adguard.com](https://github.com/AdguardTeam/AdGuardSDNSFilter): Bộ lọc bao gồm một số bộ lọc khác (bộ lọc Cơ sở AdGuard, bộ lọc Truyền thông xã hội, bộ lọc Chống theo dõi, bộ lọc Quảng cáo trên thiết bị di động, EasyList và EasyPrivacy) và được đơn giản hóa cụ thể để tương thích tốt hơn với chặn quảng cáo cấp DNS.
@@ -33,10 +33,10 @@ Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn 
 - DNS bộ lọc an toàn + Chặn quảng cáo, theo dõi + chặn nội dung khiêu dâm + tìm kiếm an toàn.
 ### - DNS over HTTPS (DoH):
 * https://r3i5enfsbw.cloudflare-gateway.com/dns-query
-* Linh tải cấu hình cho IOS: [Link 1](), [Link 2](https://app.box.com/s/v4bzil3wvzagkdolh4swmcifnxe137u2)
+* Linh tải cấu hình cho IOS: [Link](https://app.box.com/s/v4bzil3wvzagkdolh4swmcifnxe137u2)
 ### - DNS over TLS (DoT):
 * r3i5enfsbw.cloudflare-gateway.com
-* Linh tải cấu hình cho IOS: [Link 1](), [Link 2](https://app.box.com/s/pffloolmgvkcezx9yopyn8ockomu9ddz)
+* Linh tải cấu hình cho IOS: [Link](https://app.box.com/s/pffloolmgvkcezx9yopyn8ockomu9ddz)
 ### - IPv6: 2a06:98c1:54::15:29a5
 
 ##### Chức năng chặn nội dung người lớn cho trẻ em:
