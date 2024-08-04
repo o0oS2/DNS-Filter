@@ -1,20 +1,5 @@
 # DNS RIÊNG TƯ DỰA TRÊN NỀN TẢNG [CLOUDFLARE ZERO TRUST](https://www.cloudflare.com/zero-trust/)
-Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn định (chỉ sau Google DNS)
-## 1. DNS - BỘ LỌC AN TOÀN
-### - DNS over HTTPS (DoH):
-* https://15gzo9hqdn.cloudflare-gateway.com/dns-query
-* Link tải cấu hình cho IOS: [Link](https://app.box.com/s/3irg0nqq93jmhjreu03n6h0f60sejhh5)
- ### - DNS over TLS (DoT):
-* 15gzo9hqdn.cloudflare-gateway.com
-* Link tải cấu hình cho IOS: [Link](https://app.box.com/s/ky52fiqeeidjiyewxzpzu1qc3l10l6ea)
-### IPv6: 2a06:98c1:54::15:e9b5
-#### DNS tích hợp chức năng lọc dựa trên dữ liệu [Cloudflare](https://www.cloudflare.com/), cập nhật thời gian thực:
-- Rủi ro an ninh: phần mềm độc hại, lừa đảo, thư rác, phần mềm gián điệp, khai thác tiền điện tử.
-- Nội dung độc hại: Cờ bạc, Lạm dụng trẻ em, Bạo lực, Quảng cáo lừa đảo, Ma tuý, Hacking, Thù hận & chủ nghĩa cực đoan, Thô tục, Gian lận học đường, Tên miền Parked & Để bán, Thông tin không đáng tin cậy.
-- Chặn địa chỉ IP tại Campuchia, Myanmar, Philipines (nhiều trang web lừa đảo hay đặt máy chủ tại những quốc gia này).
-
-## 2. DNS - BỘ LỌC CHẶN QUẢNG CÁO, THEO DÕI:
-- DNS Bộ lọc an toàn + Chặn quảng cáo, theo dõi.
+Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn định (chỉ sau Google DNS). Chức năng: Chặn quảng cáo, theo dõi, trang web độc hại, cờ bạc...
 ### - DNS over HTTPS (DoH):
 * https://ckzui5o99j.cloudflare-gateway.com/dns-query
 * Link tải cấu hình cho IOS: [Link](https://app.box.com/s/ecz35292kaimiuw1njtn9y34mieqnc7z)
@@ -29,25 +14,11 @@ Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn 
 #### Danh sách những tên miền được cho phép (sửa lỗi bộ lọc bên thứ 3 chặn nhầm):
 - [NextDNS](https://raw.githubusercontent.com/nextdns/click-tracking-domains/main/domains): Cho phép bấm vào link tiếp thị và theo dõi.
 - [Danh sách cho phép của tôi](https://raw.githubusercontent.com/o0oS2/DNS-Filter/main/Allowlist): Bổ sung thêm cho NextDNS.
-## 3. DNS - BỘ LỌC CHO TRẺ EM:
-- DNS bộ lọc an toàn + Chặn quảng cáo, theo dõi + chặn nội dung khiêu dâm + tìm kiếm an toàn.
-### - DNS over HTTPS (DoH):
-* https://r3i5enfsbw.cloudflare-gateway.com/dns-query
-* Linh tải cấu hình cho IOS: [Link](https://app.box.com/s/v4bzil3wvzagkdolh4swmcifnxe137u2)
-### - DNS over TLS (DoT):
-* r3i5enfsbw.cloudflare-gateway.com
-* Linh tải cấu hình cho IOS: [Link](https://app.box.com/s/pffloolmgvkcezx9yopyn8ockomu9ddz)
-### - IPv6: 2a06:98c1:54::15:29a5
-
-##### Chức năng chặn nội dung người lớn cho trẻ em:
-- Tìm kiếm an toàn: Google, Bing, DuckduckGo Các (nội dung độc hại, từ khóa chứa nội dung đồi trụy...các kết quả phản cảm sẽ không được hiển thị)
-- Chế độ hạn chế Youtube: Các nội dung độc hại, từ khóa chứa nội dung đồi trụy...các kết quả phản cảm sẽ không được hiển thị
-- Chặn chủ đề khiêu dâm, đồi truỵ dựa trên dữ liệu Cloudflare
 
 ### Tự tạo DNS dựa trên nền tảng Cloudflare Zero Trust
 [Hướng dẫn - VOZ](https://voz.vn/t/huong-dan-dung-cloudflare-zero-trust.822971/), [Tạo Cấu hình cho IOS](https://dns.notjakob.com/tool.html), [Kiểm tra DNS](https://www.dnscheck.tools/), [Kiểm tra chặn quảng cáo](https://d3ward.github.io/toolz/adblock.html)
 
-## 4. Một số DNS chặn quảng cáo miễn phí:
+## Một số DNS chặn quảng cáo miễn phí:
 - [Số 1. Next DNS](https://my.nextdns.io/)
   * Có 4 máy chủ tại Hà Nội và Hồ Chí Minh (không lo đứt cáp quang biển)
   * Phải tạo tài khoản và cấu hình để chặn quảng cáo, nội dung độc hại....
