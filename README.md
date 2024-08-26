@@ -24,38 +24,4 @@ Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn 
 ## Tự tạo DNS dựa trên nền tảng Cloudflare Zero Trust
 [Hướng dẫn - VOZ](https://voz.vn/t/huong-dan-dung-cloudflare-zero-trust.822971/), [Tạo Cấu hình cho IOS](https://dns.notjakob.com/tool.html), [Kiểm tra DNS](https://www.dnscheck.tools/), [Kiểm tra chặn quảng cáo](https://d3ward.github.io/toolz/adblock.html)
 
-## Một số DNS chặn quảng cáo miễn phí:
-- [Số 1. Next DNS](https://my.nextdns.io/)
-  * Có 4 máy chủ tại Hà Nội và Hồ Chí Minh (không lo đứt cáp quang biển)
-  * Phải tạo tài khoản và cấu hình để chặn quảng cáo, nội dung độc hại....
-  * Miễn phí 300.000 truy vấn 1 tháng
-  * Hoạt động rất nhanh và ổn định (chỉ sau Google DNS và Cloudflare)
-  * Hướng dẫn: [Link Github](https://github.com/bigdargon/hostsVN/wiki/NextDNS), [Link VOZ](https://voz.vn/t/tat-tan-tat-ve-dich-vu-nextdns.522718/)
-- [Số 2. ControlD](https://controld.com/free-dns)
-  * DNS đệ quy, có thể chọn bộ lọc dễ dàng
-  * Máy chủ tại Hồng Kông, Singapore, Nhật Bản ...
-  * Hoạt động rất nhanh và ổn định (kém hơn NextDNS)
-  * Có IPv4 và IPv6
-- [Số 3. Rethink](https://rethinkdns.com/configure)
-  * Sắp tới sẽ dừng hỗ trợ miễn phí (chưa rõ ngày)
-  * Dễ dàng chọn bộ lọc
-  * Chuyển tiếp qua Cloudflare DNS
-  * Rất nhanh và ổn định do dùng chung nền tảng của Cloudflare
-  * Không có IPv4 và IPv6
-- [Số 4. Adguard](https://adguard-dns.io/en/public-dns.html)
-  * DNS đệ quy nhưng định tuyến chưa tốt tại Việt Nam
-  * Chưa có máy chủ tại Hồng Kông
-  * Hoạt động kém ổn định so với ControlD
-  * Có IPv4 và IPv6
-- [Số 5.1 ABPVN](https://private-dns.abpvn.com/)
-  * Dùng Adguard Home lọc quảng cáo, máy chủ Anguard Home tại Hà Nội và Singapore
-  * Chuyển tiếp qua Google DNS
-  * Máy chủ Adguard Home và máy chủ Google DNS xa nhau nên tốc độ không nhanh lắm
-  * Có IPv4 và IPv6
-- [Số 5.2 VietDNS](https://vietdns.vn/)
-  * Máy chủ tại Hà Nội và Hồ Chí Minh
-  * chuyển tiếp qua Google DNS
-  * Máy chủ VietDNS và máy chủ Google DNS xa nhau nên tốc độ không nhanh lắm
-  * Có IPv4 và IPv6
-
 Made with ♥ by o0oS2
