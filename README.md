@@ -1,7 +1,9 @@
 # DNS RIÊNG TƯ DỰA TRÊN NỀN TẢNG [CLOUDFLARE ZERO TRUST](https://www.cloudflare.com/zero-trust/)
 Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn định (chỉ sau Google DNS). Chức năng: Chặn quảng cáo, theo dõi, trang web độc hại, cờ bạc...
 ### - DNS over HTTPS (DoH):
-* https://ckzui5o99j.cloudflare-gateway.com/dns-query
+```
+https://ckzui5o99j.cloudflare-gateway.com/dns-query
+```
 * Link tải cấu hình cho IOS: [Link](https://app.box.com/s/ecz35292kaimiuw1njtn9y34mieqnc7z)
 ### - DNS over TLS (DoT):
 * ckzui5o99j.cloudflare-gateway.com
