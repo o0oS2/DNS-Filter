@@ -6,7 +6,7 @@ https://ckzui5o99j.cloudflare-gateway.com/dns-query
 ```
 * Link tải cấu hình cho IOS: [Link](https://app.box.com/s/ecz35292kaimiuw1njtn9y34mieqnc7z)
 ### - DNS over TLS (DoT):
-* ckzui5o99j.cloudflare-gateway.com
+```ckzui5o99j.cloudflare-gateway.com```
 * Linh tải cấu hình cho IOS: [Link](https://app.box.com/s/dnqyazkux2av1cc1tr0zsxq9w7er5o0l)
 ### - IPv6: 2a06:98c1:54::14:dec9
 
