@@ -10,7 +10,10 @@ https://ckzui5o99j.cloudflare-gateway.com/dns-query
 ckzui5o99j.cloudflare-gateway.com
 ```
 * Linh tải cấu hình cho IOS: [Link](https://app.box.com/s/dnqyazkux2av1cc1tr0zsxq9w7er5o0l)
-### - IPv6: 2a06:98c1:54::14:dec9
+### - IPv6: 
+```
+2a06:98c1:54::14:dec9
+```
 
 ### DNS tích hợp chức năng lọc dựa trên dữ liệu Cloudflare, cập nhật thời gian thực:
 - Rủi ro an ninh: phần mềm độc hại, lừa đảo, thư rác, phần mềm gián điệp, khai thác tiền điện tử.
