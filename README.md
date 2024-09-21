@@ -1,5 +1,5 @@
-# DNS RIÊNG TƯ DỰA TRÊN NỀN TẢNG [CLOUDFLARE ZERO TRUST](https://www.cloudflare.com/zero-trust/)
-## DNS - BỘ LỌC AN TOÀN
+# 1. DNS RIÊNG TƯ DỰA TRÊN NỀN TẢNG [CLOUDFLARE ZERO TRUST](https://www.cloudflare.com/zero-trust/)
+## 1.1 DNS - BỘ LỌC AN TOÀN
 Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn định (chỉ sau Google DNS). Chức năng: Chặn quảng cáo, theo dõi, trang web độc hại, cờ bạc...
 ### - DNS over HTTPS (DoH):
 ```
@@ -16,7 +16,7 @@ ckzui5o99j.cloudflare-gateway.com
 2a06:98c1:54::14:dec9
 ```
 
-## DNS - CHO TRẺ EM
+## 1.2 DNS - CHO TRẺ EM
 DNS - BỘ LỌC AN TOÀN + chế độ hạn chế Youtube + Tìm kiếm an toàn + Chặn trang web có nội dung không phù hợp với trẻ em
 ### - DNS over HTTPS (DoH):
 ```
@@ -32,16 +32,16 @@ opvi3ac1vy.cloudflare-gateway.com
 ```
 2a06:98c1:54::17:e90b
 ```
-## CẢ HAI BỘ LỌC DNS ĐỀU TÍCH HỢP TÍNH NĂNG DƯỚI ĐÂY:
-### DNS tích hợp chức năng lọc dựa trên dữ liệu Cloudflare, cập nhật thời gian thực:
+## 2. HAI BỘ LỌC DNS ĐỀU TÍCH HỢP TÍNH NĂNG DƯỚI ĐÂY:
+### 2.1 DNS tích hợp chức năng lọc dựa trên dữ liệu Cloudflare, cập nhật thời gian thực:
 - Rủi ro an ninh: phần mềm độc hại, lừa đảo, thư rác, phần mềm gián điệp, khai thác tiền điện tử.
 - Nội dung độc hại: Cờ bạc, Lạm dụng trẻ em, Bạo lực, Quảng cáo lừa đảo, Ma tuý, Hacking, Thù hận & chủ nghĩa cực đoan, Thô tục, Gian lận học đường, Tên miền Parked & Để bán, Thông tin không đáng tin cậy.
 - Chặn địa chỉ IP tại Campuchia, Myanmar, Philipines (nhiều trang web lừa đảo hay đặt máy chủ tại những quốc gia này).
 
-### Tích hợp bộ lọc chặn quảng cáo, theo dõi bên thứ 3 (cập nhật 3h00 sáng thứ bảy hàng tuần):
+### 2.2 Tích hợp bộ lọc chặn quảng cáo, theo dõi bên thứ 3 (cập nhật 3h00 sáng thứ bảy hàng tuần):
 - [HostsVN](https://github.com/bigdargon/hostsVN): Bộ lọc chặn quảng cáo, mã độc, lừa đảo, cờ bạc tại Việt Nam.
 - [Danh sách chặn của tôi](https://raw.githubusercontent.com/o0oS2/DNS-Filter/main/Denylist): Danh sách chặn bổ sung thêm (chặn quảng cáo, cờ bạc, lừa đảo).
-### Danh sách những tên miền được cho phép (sửa lỗi bộ lọc bên thứ 3 chặn nhầm):
+### 2.3 Danh sách những tên miền được cho phép (sửa lỗi bộ lọc bên thứ 3 chặn nhầm):
 - [NextDNS](https://raw.githubusercontent.com/nextdns/click-tracking-domains/main/domains): Cho phép bấm vào link tiếp thị và theo dõi.
 - [Danh sách cho phép của tôi](https://raw.githubusercontent.com/o0oS2/DNS-Filter/main/Allowlist): Bổ sung thêm cho NextDNS.
 
