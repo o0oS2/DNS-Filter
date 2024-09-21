@@ -1,6 +1,7 @@
 # DNS RIÊNG TƯ DỰA TRÊN NỀN TẢNG [CLOUDFLARE ZERO TRUST](https://www.cloudflare.com/zero-trust/)
+Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn định (chỉ sau Google DNS)
 ## 1.1 DNS - BỘ LỌC AN TOÀN
-Sử dụng DNS đệ quy từ Cloudflare nên tốc độ rất nhanh và ổn định (chỉ sau Google DNS). Chức năng: Chặn quảng cáo, theo dõi, trang web độc hại, cờ bạc...
+Chức năng: Chặn quảng cáo, theo dõi, trang web độc hại, cờ bạc...
 ### - DNS over HTTPS (DoH):
 ```
 https://ckzui5o99j.cloudflare-gateway.com/dns-query
