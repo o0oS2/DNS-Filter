@@ -32,6 +32,7 @@ opvi3ac1vy.cloudflare-gateway.com
 ```
 2a06:98c1:54::17:e90b
 ```
+## CẢ HAI BỘ LỌC DNS ĐỀU TÍCH HỢP TÍNH NĂNG DƯỚI ĐÂY:
 ### DNS tích hợp chức năng lọc dựa trên dữ liệu Cloudflare, cập nhật thời gian thực:
 - Rủi ro an ninh: phần mềm độc hại, lừa đảo, thư rác, phần mềm gián điệp, khai thác tiền điện tử.
 - Nội dung độc hại: Cờ bạc, Lạm dụng trẻ em, Bạo lực, Quảng cáo lừa đảo, Ma tuý, Hacking, Thù hận & chủ nghĩa cực đoan, Thô tục, Gian lận học đường, Tên miền Parked & Để bán, Thông tin không đáng tin cậy.
