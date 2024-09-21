@@ -29,17 +29,17 @@ ckzui5o99j.cloudflare-gateway.com
 - [Danh sách cho phép của tôi](https://raw.githubusercontent.com/o0oS2/DNS-Filter/main/Allowlist): Bổ sung thêm cho NextDNS.
 
 ## DNS - CHO TRẺ EM
-DNS - BỘ LỌC AN TOÀN + CHẾ ĐỘ HẠN CHẾ YOUTUBE + TÌM KIẾM AN TOÀN + CHẶN TRANG WEB CÓ NỘI DUNG KHIÊU DÂM, ĐỒI TRUỴ AN TOÀN CHO TRẺ EM
+DNS - BỘ LỌC AN TOÀN + chế độ hạn chế Youtube + Tìm kiếm an toàn + Chặn trang web có nội dung không phù hợp với trẻ em
 ### - DNS over HTTPS (DoH):
 ```
-https://ckzui5o99j.cloudflare-gateway.com/dns-query
+https://opvi3ac1vy.cloudflare-gateway.com/dns-query
 ```
-* Link tải cấu hình cho IOS: [Link](https://app.box.com/s/ecz35292kaimiuw1njtn9y34mieqnc7z)
+* Link tải cấu hình cho IOS: [Link](https://app.box.com/s/v4bzil3wvzagkdolh4swmcifnxe137u2)
 ### - DNS over TLS (DoT):
 ```
 opvi3ac1vy.cloudflare-gateway.com
 ```
-* Linh tải cấu hình cho IOS: [Link](https://app.box.com/s/dnqyazkux2av1cc1tr0zsxq9w7er5o0l)
+* Linh tải cấu hình cho IOS: [Link](https://app.box.com/s/pffloolmgvkcezx9yopyn8ockomu9ddz)
 ### - IPv6: 
 ```
 2a06:98c1:54::17:e90b
