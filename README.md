@@ -21,17 +21,17 @@ ckzui5o99j.cloudflare-gateway.com
 DNS - BỘ LỌC AN TOÀN + chế độ hạn chế Youtube + Tìm kiếm an toàn + Chặn trang web có nội dung không phù hợp với trẻ em
 ### - DNS over HTTPS (DoH):
 ```
-https://opvi3ac1vy.cloudflare-gateway.com/dns-query
+https://0ng9sksd6v.cloudflare-gateway.com/dns-query
 ```
 * Link tải cấu hình cho IOS: [Link](https://app.box.com/s/v4bzil3wvzagkdolh4swmcifnxe137u2)
 ### - DNS over TLS (DoT):
 ```
-opvi3ac1vy.cloudflare-gateway.com
+0ng9sksd6v.cloudflare-gateway.com
 ```
 * Linh tải cấu hình cho IOS: [Link](https://app.box.com/s/pffloolmgvkcezx9yopyn8ockomu9ddz)
 ### - IPv6: 
 ```
-2a06:98c1:54::17:e90b
+2a06:98c1:54::18:ffe
 ```
 ## 1.3 HAI BỘ LỌC DNS ĐỀU TÍCH HỢP TÍNH NĂNG DƯỚI ĐÂY:
 ### a, DNS tích hợp chức năng lọc dựa trên dữ liệu Cloudflare, cập nhật thời gian thực:
