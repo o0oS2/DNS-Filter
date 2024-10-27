@@ -33,7 +33,7 @@ https://0ng9sksd6v.cloudflare-gateway.com/dns-query
 ```
 2a06:98c1:54::18:ffe
 ```
-## 1.3 HAI BỘ LỌC DNS ĐỀU TÍCH HỢP TÍNH NĂNG DƯỚI ĐÂY:
+## TÍNH NĂNG BỘ LỌC DNS:
 ### a, DNS tích hợp chức năng lọc dựa trên dữ liệu Cloudflare, cập nhật thời gian thực:
 - Rủi ro an ninh: phần mềm độc hại, lừa đảo, thư rác, phần mềm gián điệp, khai thác tiền điện tử.
 - Nội dung độc hại: Cờ bạc, Lạm dụng trẻ em, Bạo lực, Quảng cáo lừa đảo, Ma tuý, Hacking, Thù hận & chủ nghĩa cực đoan, Thô tục, Gian lận học đường, Tên miền Parked & Để bán, Thông tin không đáng tin cậy.
