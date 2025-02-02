@@ -55,13 +55,11 @@ https://0ng9sksd6v.cloudflare-gateway.com/dns-query
 ```
 https://dns.nextdns.io/527e31
 ```
-* Link tải cấu hình cho IOS: [Link](https://app.box.com/s/v4bzil3wvzagkdolh4swmcifnxe137u2)
+* Link tải cấu hình cho IOS: [Link](https://apple.nextdns.io/?profile=527e31)
 ### - DNS over TLS (DoT):
 ```
-
 527e31.dns.nextdns.io
 ```
-* Linh tải cấu hình cho IOS: [Link](https://apple.nextdns.io/?profile=527e31)
 ### - IPv6: 
 ```
 2a07:a8c0::52:7e31
