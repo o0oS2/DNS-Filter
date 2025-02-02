@@ -50,4 +50,22 @@ https://0ng9sksd6v.cloudflare-gateway.com/dns-query
 ## Tự tạo DNS dựa trên nền tảng Cloudflare Zero Trust
 [Hướng dẫn - VOZ](https://voz.vn/t/huong-dan-dung-cloudflare-zero-trust.822971/), [Tạo Cấu hình cho IOS](https://dns.notjakob.com/tool.html), [Kiểm tra DNS](https://www.dnscheck.tools/), [Kiểm tra chặn quảng cáo](https://d3ward.github.io/toolz/adblock.html)
 
+## NextDNS tài khoản Pro Education
+### - DNS over HTTPS (DoH):
+```
+https://dns.nextdns.io/527e31
+```
+* Link tải cấu hình cho IOS: [Link](https://app.box.com/s/v4bzil3wvzagkdolh4swmcifnxe137u2)
+### - DNS over TLS (DoT):
+```
+
+527e31.dns.nextdns.io
+```
+* Linh tải cấu hình cho IOS: [Link](https://apple.nextdns.io/?profile=527e31)
+### - IPv6: 
+```
+2a07:a8c0::52:7e31
+2a07:a8c1::52:7e31
+```
+
 Made with ♥ by o0oS2
