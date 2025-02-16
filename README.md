@@ -41,6 +41,7 @@ https://0ng9sksd6v.cloudflare-gateway.com/dns-query
 
 ### b, Tích hợp bộ lọc chặn quảng cáo, theo dõi bên thứ 3 (cập nhật 3h00 sáng hàng ngày):
 - [HostsVN](https://github.com/bigdargon/hostsVN): Bộ lọc chặn quảng cáo, mã độc, lừa đảo, cờ bạc tại Việt Nam.
+- .[AdGuard DNS filter](https://github.com/AdguardTeam/AdGuardSDNSFilter): Một bộ lọc bao gồm một số bộ lọc khác (bộ lọc AdGuard Base, bộ lọc phương tiện truyền thông xã hội, bộ lọc Bảo vệ theo dõi, bộ lọc Quảng cáo trên thiết bị di động, EasyList và EasyPrivacy) và được đơn giản hóa cụ thể để tương thích tốt hơn với tính năng chặn quảng cáo cấp DNS.
 - [Danh sách chặn của tôi](https://raw.githubusercontent.com/o0oS2/DNS-Filter/main/Denylist): Danh sách chặn bổ sung thêm (chặn quảng cáo, cờ bạc, lừa đảo).
 ### c, Danh sách những tên miền được cho phép (sửa lỗi bộ lọc bên thứ 3 chặn nhầm):
 - [NextDNS](https://raw.githubusercontent.com/nextdns/click-tracking-domains/main/domains): Cho phép bấm vào link tiếp thị và theo dõi.
