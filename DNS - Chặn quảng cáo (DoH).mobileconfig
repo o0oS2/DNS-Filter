@@ -1,0 +1,84 @@
+<plist version="1.0">
+<dict>
+<key>PayloadContent</key>
+<array>
+<dict>
+<key>DNSSettings</key>
+<dict>
+<key>DNSProtocol</key>
+<string>HTTPS</string>
+<key>ServerAddresses</key>
+<array/>
+<key>ServerURL</key>
+<string>https://ckzui5o99j.cloudflare-gateway.com/dns-query</string>
+</dict>
+<key>OnDemandRules</key>
+<array>
+<dict>
+<key>Action</key>
+<string>EvaluateConnection</string>
+<key>ActionParameters</key>
+<array>
+<dict>
+<key>DomainAction</key>
+<string>NeverConnect</string>
+<key>Domains</key>
+<array>
+<string>vietcombank.com.vn</string>
+</array>
+</dict>
+</array>
+</dict>
+<dict>
+<key>Action</key>
+<string>Connect</string>
+<key>InterfaceTypeMatch</key>
+<string>WiFi</string>
+</dict>
+<dict>
+<key>Action</key>
+<string>Connect</string>
+<key>InterfaceTypeMatch</key>
+<string>Cellular</string>
+</dict>
+<dict>
+<key>Action</key>
+<string>Disconnect</string>
+</dict>
+</array>
+<key>PayloadDescription</key>
+<string>DNS - Chặn quảng cáo dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, bài bạc, quảng cáo, theo dõi người dùng. Nguồn: github.com/o0oS2/DNS-Filter/wiki</string>
+<key>PayloadDisplayName</key>
+<string>DNS - Chặn quảng cáo</string>
+<key>PayloadOrganization</key>
+    <string>Cloudflare Zero Trust</string>
+<key>PayloadIdentifier</key>
+<string>com.apple.dnsSettings.managed.034f1baa-e548-4b3c-9e6f-d539ca39616a</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadUUID</key>
+<string>cbc7d893-da4f-44d1-af7b-68d7473077b0</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+<key>ProhibitDisablement</key>
+<false/>
+</dict>
+</array>
+<key>PayloadDescription</key>
+<string>DNS - Chặn quảng cáo dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, bài bạc, quảng cáo, theo dõi người dùng. Nguồn: github.com/o0oS2/DNS-Filter/wiki</string>
+<key>PayloadDisplayName</key>
+<string>DNS - Chặn quảng cáo</string>
+<key>PayloadOrganization</key>
+    <string>Cloudflare Zero Trust</string>
+<key>PayloadIdentifier</key>
+<string>com.notjakob.apple-dns.3b0faca7-7b33-43e3-b521-eade18c5a00a</string>
+<key>PayloadRemovalDisallowed</key>
+<false/>
+<key>PayloadType</key>
+<string>Configuration</string>
+<key>PayloadUUID</key>
+<string>6fa10122-8801-49dc-8102-28393a248a08</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict>
+</plist>
