@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array/>
+				<key>ServerName</key>
+				<string>Iphone--Xs-527e31.dns.nextdns.io</string>
+			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>WiFi</string>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>Cellular</string>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>Disconnect</string>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Cấu hình DNS chặn quảng cáo, mã độc, lừa đảo, cờ bạc, khiêu dâm... qua TLS (DoT) từ NextDNS.io, máy chủ DNS Sever đặt tại Hà Nội và Hồ Chí Minh.</string>
+			<key>PayloadDisplayName</key>
+			<string>DNS - Cho trẻ em</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.7adb6ec4-c78e-42c7-b1c0-a7941e7c18af</string>
+			<key>PayloadOrganization</key>
+			<string>NextDNS.io</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>dd0f6823-68df-4afb-9637-feec18bec3c2</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Cấu hình DNS chặn quảng cáo, mã độc, lừa đảo, cờ bạc, khiêu dâm... qua TLS (DoT) từ NextDNS.io, máy chủ DNS Sever đặt tại Hà Nội và Hồ Chí Minh.</string>
+	<key>PayloadDisplayName</key>
+	<string>NextDNS - Chặn quảng cáo, 18+</string>
+	<key>PayloadIdentifier</key>
+	<string>com.notjakob.apple-dns.9b41b5aa-956f-4746-9a9b-5550b875a6d4</string>
+	<key>PayloadOrganization</key>
+	<string>Trần Đức Trung</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>39d9a96f-8c03-4f02-90e5-8ba2a669901c</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
