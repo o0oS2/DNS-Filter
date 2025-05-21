@@ -6,7 +6,7 @@
 * **Iphone:** [Link tải cấu hình Ios](https://www.icloud.com/iclouddrive/012-bKO4sf4Rt4ge8ysNcYfkg#DNS-Mobileconfig) → bấm vào 1 trong 4 file cấu hình → vào cài đặt → đã tải về hồ sơ → cài đặt DNS → nhập mật khẩu điện thoại...
 * **Trình duyệt:** Cài đặt → Quyền riêng tư và bảo mật → Bảo mật → Sử dụng nhà cung cấp DNS → DNS tuỳ chỉnh → dán link DNS over HTTPS (DOH).
 ##### b. VPN 1.1.1.1 Warp+ (vượt web bị chặn, fake địa chỉ IP, vào trang có máy chủ tại nước ngoài nhanh hơn)
-* Vào Appstore hoặc CH Play cài và mở ứng dụng: **Cloudflare One Agent** → Next → Accept→ nhập: tdt93 → Next → Tiếp tục → nhập địa chỉ Email của bạn → Send me a Code → nhập code từ email gửi đến → Sign in → tiến hành cài đặt VPN như VPN 1.1.1.1.
+* Vào [Appstore](https://apps.apple.com/vn/app/cloudflare-one-agent/id6443476492?l=vi) hoặc [CH Play](https://g.co/kgs/mN915iJ) cài và mở ứng dụng: **Cloudflare One Agent** → Next → Accept→ nhập: tdt93 → Next → Tiếp tục → nhập địa chỉ Email của bạn → Send me a Code → nhập code từ email gửi đến → Sign in → tiến hành cài đặt VPN như VPN 1.1.1.1.
 * Do Fake địa chỉ IP (Fake ra nước ngoài) nên có thể không truy cập vào một số trang Web của **Bộ Công An**, **VNEID** (**VNEID** chặn IP từ nước ngoài), tắt VPN có thể truy cập bình thường.
 ***
 ##### Level 1. DNS - BỘ LỌC AN TOÀN
