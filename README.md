@@ -14,11 +14,11 @@ Chặn mã độc, theo dõi, trang web độc hại, cờ bạc...
 
 ##### _a. DNS over HTTPS (DoH):_
 ```
-https://nq5rum5udh.cloudflare-gateway.com/dns-query
+https://yg6aot7a4o.cloudflare-gateway.com/dns-query
 ```
 ##### _b. DNS over TLS (DoT):_
 ```
-nq5rum5udh.cloudflare-gateway.com
+yg6aot7a4o.cloudflare-gateway.com
 ```
 ***
 ##### Level 2. DNS - Chặn quảng cáo
@@ -62,4 +62,3 @@ https://0ng9sksd6v.cloudflare-gateway.com/dns-query
 * [Hướng dẫn tạo DNS từ VOZ](https://voz.vn/t/huong-dan-dung-cloudflare-zero-trust.822971/)
 * [Tạo Cấu hình cho IOS](https://dns.notjakob.com/tool.html)
 * [Kiểm tra DNS](https://www.dnscheck.tools/)
-* Liên hệ: Zalo: [Đức Trung](http://zalo.me/trungpl)
