@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hướng dẫn cài đặt DNS Private và VPN 1.1.1.1 WARP+ bởi Cloudflare - Chặn quảng cáo, mã độc, bảo vệ quyền riêng tư">
+    <meta name="keywords" content="DNS Private, VPN, Cloudflare, 1.1.1.1, WARP+, chặn quảng cáo">
+    <title>DNS Private & VPN 1.1.1.1 WARP+ by Cloudflare</title>
+    <style>
+        :root {
+            --primary-color: #007BFF;
+            --primary-hover: #0056b3;
+            --bg-color: #f9f9f9;
+            --text-color: #333;
+            --code-bg: #eee;
+            --border-radius: 4px;
+            --shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+
+        .header h1 {
+            margin: 0 0 1rem 0;
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+        }
+
+        .header p {
+            margin: 0;
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .section {
+            background: white;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+
+        h2, h3, h4 {
+            color: var(--text-color);
+            margin-top: 0;
+        }
+
+        h2 {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .dns-card {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .dns-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .dns-card h4 {
+            margin-top: 0;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+        }
+
+        .level-badge {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin-right: 0.5rem;
+        }
+
+        .dns-item {
+            margin: 1rem 0;
+            padding: 1rem;
+            background: white;
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .dns-item label {
+            font-weight: 600;
+            color: var(--primary-color);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .dns-input-group {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        code {
+            background-color: var(--code-bg);
+            padding: 0.5rem 0.8rem;
+            border-radius: var(--border-radius);
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 0.9rem;
+            word-break: break-all;
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .copy-btn {
+            padding: 0.5rem 1rem;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .copy-btn:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+
+        .copy-btn:active {
+            transform: translateY(0);
+        }
+
+        .success-toast {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #28a745;
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+            z-index: 1000;
+        }
+
+        .success-toast.show {
+            transform: translateX(0);
+        }
+
+        .install-grid {
+            display: grid;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        @media (min-width: 768px) {
+            .install-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .install-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .install-card h4 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .feature-list li {
+            background: white;
+            margin-bottom: 0.5rem;
+            padding: 1rem;
+            border-radius: var(--border-radius);
+            border-left: 3px solid var(--primary-color);
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .section {
+                padding: 1rem;
+            }
+            
+            .dns-input-group {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            code {
+                min-width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>DNS Private & VPN 1.1.1.1 WARP+</h1>
+        <p>Bảo vệ quyền riêng tư với Cloudflare Zero Trust - Chặn quảng cáo, mã độc và nội dung có hại</p>
+    </header>
+
+    <section class="section">
+        <h2>🚀 Hướng dẫn cài đặt</h2>
+        
+        <div class="install-grid">
+            <div class="install-card">
+                <h4>📱 DNS Private</h4>
+                <p><em>Nhẹ, tiết kiệm pin, tối ưu cho máy chủ trong nước</em></p>
+                <ul>
+                    <li><strong>Android:</strong> Cài đặt → Kết nối → DNS Riêng tư → DNS tuỳ chỉnh → dán DNS over TLS (DOT)</li>
+                    <li><strong>iPhone:</strong> <a href="https://www.icloud.com/iclouddrive/012-bKO4sf4Rt4ge8ysNcYfkg#DNS-Mobileconfig" target="_blank" rel="noopener">Tải cấu hình iOS</a> → Cài đặt → Hồ sơ đã tải → Cài đặt DNS</li>
+                    <li><strong>Trình duyệt:</strong> Cài đặt → Quyền riêng tư → Bảo mật → DNS tuỳ chỉnh → dán DNS over HTTPS (DOH)</li>
+                </ul>
+            </div>
+
+            <div class="install-card">
+                <h4>🛡️ VPN 1.1.1.1 WARP+</h4>
+                <p><em>Vượt tường lửa, fake IP, tối ưu cho máy chủ nước ngoài</em></p>
+                <ul>
+                    <li>Tải <strong>Cloudflare One Agent</strong> từ <a href="https://apps.apple.com/vn/app/cloudflare-one-agent/id6443476492" target="_blank" rel="noopener">App Store</a> / <a href="https://play.google.com/store/apps/details?id=com.cloudflare.onedotagent" target="_blank" rel="noopener">Google Play</a></li>
+                    <li>Mở app → Next → Accept → Nhập: <code>tdt93</code></li>
+                    <li>Nhập email → Send code → Xác thực → Cài đặt VPN</li>
+                </ul>
+                <div class="warning">
+                    <strong>⚠️ Lưu ý:</strong> VPN có thể không truy cập được một số trang web của Bộ Công An, VNEID do fake IP nước ngoài.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>🔧 Cấu hình DNS</h2>
+
+        <div class="dns-card">
+            <h4><span class="level-badge">Level 1</span>Bộ lọc an toàn</h4>
+            <p>Chặn mã độc, theo dõi, trang web độc hại, cờ bạc</p>
+            
+            <div class="dns-item">
+                <label>DNS over HTTPS (DoH):</label>
+                <div class="dns-input-group">
+                    <code id="doh1">https://yg6aot7a4o.cloudflare-gateway.com/dns-query</code>
+                    <button class="copy-btn" onclick="copyToClipboard('doh1', 'DoH Level 1')">Copy</button>
+                </div>
+            </div>
+            
+            <div class="dns-item">
+                <label>DNS over TLS (DoT):</label>
+                <div class="dns-input-group">
+                    <code id="dot1">yg6aot7a4o.cloudflare-gateway.com</code>
+                    <button class="copy-btn" onclick="copyToClipboard('dot1', 'DoT Level 1')">Copy</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="dns-card">
+            <h4><span class="level-badge">Level 2</span>Chặn quảng cáo</h4>
+            <p>Level 1 + Chặn quảng cáo và theo dõi</p>
+            
+            <div class="dns-item">
+                <label>DNS over HTTPS (DoH):</label>
+                <div class="dns-input-group">
+                    <code id="doh2">https://ckzui5o99j.cloudflare-gateway.com/dns-query</code>
+                    <button class="copy-btn" onclick="copyToClipboard('doh2', 'DoH Level 2')">Copy</button>
+                </div>
+            </div>
+            
+            <div class="dns-item">
+                <label>DNS over TLS (DoT):</label>
+                <div class="dns-input-group">
+                    <code id="dot2">ckzui5o99j.cloudflare-gateway.com</code>
+                    <button class="copy-btn" onclick="copyToClipboard('dot2', 'DoT Level 2')">Copy</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="dns-card">
+            <h4><span class="level-badge">Level 3</span>Bảo vệ gia đình</h4>
+            <p>Level 2 + Hạn chế YouTube + Tìm kiếm an toàn + Chặn nội dung 18+</p>
+            
+            <div class="dns-item">
+                <label>DNS over HTTPS (DoH):</label>
+                <div class="dns-input-group">
+                    <code id="doh3">https://0ng9sksd6v.cloudflare-gateway.com/dns-query</code>
+                    <button class="copy-btn" onclick="copyToClipboard('doh3', 'DoH Level 3')">Copy</button>
+                </div>
+            </div>
+            
+            <div class="dns-item">
+                <label>DNS over TLS (DoT):</label>
+                <div class="dns-input-group">
+                    <code id="dot3">0ng9sksd6v.cloudflare-gateway.com</code>
+                    <button class="copy-btn" onclick="copyToClipboard('dot3', 'DoT Level 3')">Copy</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>✨ Tính năng nổi bật</h2>
+        
+        <ul class="feature-list">
+            <li>
+                <strong>🛡️ Bảo mật cao cấp:</strong> Chặn phần mềm độc hại, lừa đảo, thư rác, khai thác tiền điện tử
+            </li>
+            <li>
+                <strong>🚫 Chặn nội dung có hại:</strong> Cờ bạc, bạo lực, quảng cáo lừa đảo, ma túy, hacking
+            </li>
+            <li>
+                <strong>📱 Chặn quảng cáo thông minh:</strong> Tích hợp <a href="https://github.com/bigdargon/hostsVN" target="_blank" rel="noopener">HostsVN</a>, <a href="https://github.com/AdguardTeam/AdGuardSDNSFilter" target="_blank" rel="noopener">AdGuard DNS</a>
+            </li>
+            <li>
+                <strong>🔄 Cập nhật tự động:</strong> Danh sách chặn được cập nhật lúc 3:00 sáng hàng ngày
+            </li>
+            <li>
+                <strong>✅ Whitelist thông minh:</strong> Cho phép link marketing hợp lệ, tránh chặn nhầm
+            </li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>🛠️ Tài nguyên hữu ích</h2>
+        <ul>
+            <li><a href="https://voz.vn/t/huong-dan-dung-cloudflare-zero-trust.822971/" target="_blank" rel="noopener">Hướng dẫn tạo DNS tùy chỉnh</a></li>
+            <li><a href="https://dns.notjakob.com/tool.html" target="_blank" rel="noopener">Tạo cấu hình iOS</a></li>
+            <li><a href="https://www.dnscheck.tools/" target="_blank" rel="noopener">Kiểm tra DNS</a></li>
+        </ul>
+    </section>
+
+    <div class="success-toast" id="toast">
+        <span id="toast-message"></span>
+    </div>
+
+    <script>
+        function copyToClipboard(elementId, description) {
+            const element = document.getElementById(elementId);
+            const text = element.textContent;
+            
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(text).then(() => {
+                    showToast(`Đã copy ${description}!`);
+                }).catch(err => {
+                    fallbackCopy(text, description);
+                });
+            } else {
+                fallbackCopy(text, description);
+            }
+        }
+
+        function fallbackCopy(text, description) {
+            const textArea = document.createElement('textarea');
+            textArea.value = text;
+            textArea.style.position = 'fixed';
+            textArea.style.left = '-999999px';
+            textArea.style.top = '-999999px';
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            
+            try {
+                document.execCommand('copy');
+                showToast(`Đã copy ${description}!`);
+            } catch (err) {
+                showToast('Không thể copy. Vui lòng copy thủ công.');
+            } finally {
+                document.body.removeChild(textArea);
+            }
+        }
+
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            const toastMessage = document.getElementById('toast-message');
+            
+            toastMessage.textContent = message;
+            toast.classList.add('show');
+            
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+
+        // Smooth scroll for anchor links
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a[href^="#"]');
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+
+        // Add loading state for external links
+        document.addEventListener('DOMContentLoaded', function() {
+            const externalLinks = document.querySelectorAll('a[target="_blank"]');
+            externalLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    this.style.opacity = '0.6';
+                    setTimeout(() => {
+                        this.style.opacity = '1';
+                    }, 1000);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
