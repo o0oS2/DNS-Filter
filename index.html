@@ -126,16 +126,25 @@
             border-bottom: 2px solid var(--primary);
         }
 
+        /* DNS Grid Layout - 3 columns on desktop */
+        .dns-grid {
+            display: grid;
+            gap: 0.75rem;
+            grid-template-columns: 1fr;
+        }
+
+        @media (min-width: 768px) {
+            .dns-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
         .dns-option {
             background: var(--bg);
             border-radius: var(--radius);
             padding: 0.8rem;
-            margin-bottom: 0.8rem;
             border-left: 4px solid var(--primary);
-        }
-
-        .dns-option:last-child {
-            margin-bottom: 0;
+            height: fit-content;
         }
 
         .dns-header {
@@ -349,6 +358,11 @@
                 justify-self: end;
                 margin-top: 0.5rem;
             }
+
+            /* Keep single column on mobile */
+            .dns-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -359,101 +373,103 @@
     </div>
 
     <div class="dns-section">
-        <h2>🔧 Cấu hình DNS (<a href="https://www.icloud.com/iclouddrive/012-bKO4sf4Rt4ge8ysNcYfkg#DNS-Mobileconfig" target="_blank">tải về  Iphone</a>)</h2>
+        <h2>🔧 Cấu hình DNS (<a href="https://www.icloud.com/iclouddrive/012-bKO4sf4Rt4ge8ysNcYfkg#DNS-Mobileconfig" target="_blank">tải về  Iphone</a>)</h2>
 
-        <div class="dns-option">
-            <div class="dns-header">
-                <span class="badge">Level 1</span>
-                <span class="dns-title">Bộ lọc an toàn</span>
-            </div>
-            <div class="dns-desc">Chặn mã độc, theo dõi, trang web độc hại, cờ bạc, lừa đảo, bạo lực...</div>
-            
-            <div class="dns-row">
-                <div class="dns-header-row">
-                    <span class="dns-label">DoH:</span>
-                    <button class="copy-btn" onclick="copyToClipboard('doh1', 'DoH Level 1')">Copy</button>
+        <div class="dns-grid">
+            <div class="dns-option">
+                <div class="dns-header">
+                    <span class="badge">Level 1</span>
+                    <span class="dns-title">Bộ lọc an toàn</span>
                 </div>
-                <div class="dns-value" id="doh1">https://yg6aot7a4o.cloudflare-gateway.com/dns-query</div>
-            </div>
-            
-            <div class="dns-row">
-                <div class="dns-header-row">
-                    <span class="dns-label">DoT:</span>
-                    <button class="copy-btn" onclick="copyToClipboard('dot1', 'DoT Level 1')">Copy</button>
+                <div class="dns-desc">Chặn mã độc, theo dõi, trang web độc hại, cờ bạc, lừa đảo, bạo lực...</div>
+                
+                <div class="dns-row">
+                    <div class="dns-header-row">
+                        <span class="dns-label">DoH:</span>
+                        <button class="copy-btn" onclick="copyToClipboard('doh1', 'DoH Level 1')">Copy</button>
+                    </div>
+                    <div class="dns-value" id="doh1">https://yg6aot7a4o.cloudflare-gateway.com/dns-query</div>
                 </div>
-                <div class="dns-value" id="dot1">yg6aot7a4o.cloudflare-gateway.com</div>
-            </div>
-            
-            <div class="dns-row">
-                <div class="dns-header-row">
-                    <span class="dns-label">IPv6:</span>
-                    <button class="copy-btn" onclick="copyToClipboard('ipv6-1', 'IPv6 Level 1')">Copy</button>
+                
+                <div class="dns-row">
+                    <div class="dns-header-row">
+                        <span class="dns-label">DoT:</span>
+                        <button class="copy-btn" onclick="copyToClipboard('dot1', 'DoT Level 1')">Copy</button>
+                    </div>
+                    <div class="dns-value" id="dot1">yg6aot7a4o.cloudflare-gateway.com</div>
                 </div>
-                <div class="dns-value" id="ipv6-1">2a06:98c1:54::1c:a4b6</div>
+                
+                <div class="dns-row">
+                    <div class="dns-header-row">
+                        <span class="dns-label">IPv6:</span>
+                        <button class="copy-btn" onclick="copyToClipboard('ipv6-1', 'IPv6 Level 1')">Copy</button>
+                    </div>
+                    <div class="dns-value" id="ipv6-1">2a06:98c1:54::1c:a4b6</div>
+                </div>
             </div>
-        </div>
 
-        <div class="dns-option">
-            <div class="dns-header">
-                <span class="badge">Level 2</span>
-                <span class="dns-title">Chặn quảng cáo</span>
-            </div>
-            <div class="dns-desc">Level 1 + Chặn quảng cáo và theo dõi</div>
-            
-            <div class="dns-row">
-                <div class="dns-header-row">
-                    <span class="dns-label">DoH:</span>
-                    <button class="copy-btn" onclick="copyToClipboard('doh2', 'DoH Level 2')">Copy</button>
+            <div class="dns-option">
+                <div class="dns-header">
+                    <span class="badge">Level 2</span>
+                    <span class="dns-title">Chặn quảng cáo</span>
                 </div>
-                <div class="dns-value" id="doh2">https://ckzui5o99j.cloudflare-gateway.com/dns-query</div>
-            </div>
-            
-            <div class="dns-row">
-                <div class="dns-header-row">
-                    <span class="dns-label">DoT:</span>
-                    <button class="copy-btn" onclick="copyToClipboard('dot2', 'DoT Level 2')">Copy</button>
+                <div class="dns-desc">Level 1 + Chặn quảng cáo và theo dõi</div>
+                
+                <div class="dns-row">
+                    <div class="dns-header-row">
+                        <span class="dns-label">DoH:</span>
+                        <button class="copy-btn" onclick="copyToClipboard('doh2', 'DoH Level 2')">Copy</button>
+                    </div>
+                    <div class="dns-value" id="doh2">https://ckzui5o99j.cloudflare-gateway.com/dns-query</div>
                 </div>
-                <div class="dns-value" id="dot2">ckzui5o99j.cloudflare-gateway.com</div>
-            </div>
-            
-            <div class="dns-row">
-                <div class="dns-header-row">
-                    <span class="dns-label">IPv6:</span>
-                    <button class="copy-btn" onclick="copyToClipboard('ipv6-2', 'IPv6 Level 2')">Copy</button>
+                
+                <div class="dns-row">
+                    <div class="dns-header-row">
+                        <span class="dns-label">DoT:</span>
+                        <button class="copy-btn" onclick="copyToClipboard('dot2', 'DoT Level 2')">Copy</button>
+                    </div>
+                    <div class="dns-value" id="dot2">ckzui5o99j.cloudflare-gateway.com</div>
                 </div>
-                <div class="dns-value" id="ipv6-2">2a06:98c1:54::14:dec9</div>
+                
+                <div class="dns-row">
+                    <div class="dns-header-row">
+                        <span class="dns-label">IPv6:</span>
+                        <button class="copy-btn" onclick="copyToClipboard('ipv6-2', 'IPv6 Level 2')">Copy</button>
+                    </div>
+                    <div class="dns-value" id="ipv6-2">2a06:98c1:54::14:dec9</div>
+                </div>
             </div>
-        </div>
 
-        <div class="dns-option">
-            <div class="dns-header">
-                <span class="badge">Level 3</span>
-                <span class="dns-title">Bảo vệ gia đình</span>
-            </div>
-            <div class="dns-desc">Level 2 + ẩn nội dung độc hại YouTube + Tìm kiếm an toàn + Chặn nội dung 18+</div>
-            
-            <div class="dns-row">
-                <div class="dns-header-row">
-                    <span class="dns-label">DoH:</span>
-                    <button class="copy-btn" onclick="copyToClipboard('doh3', 'DoH Level 3')">Copy</button>
+            <div class="dns-option">
+                <div class="dns-header">
+                    <span class="badge">Level 3</span>
+                    <span class="dns-title">Bảo vệ gia đình</span>
                 </div>
-                <div class="dns-value" id="doh3">https://0ng9sksd6v.cloudflare-gateway.com/dns-query</div>
-            </div>
-            
-            <div class="dns-row">
-                <div class="dns-header-row">
-                    <span class="dns-label">DoT:</span>
-                    <button class="copy-btn" onclick="copyToClipboard('dot3', 'DoT Level 3')">Copy</button>
+                <div class="dns-desc">Level 2 + ẩn nội dung độc hại YouTube + Tìm kiếm an toàn + Chặn nội dung 18+</div>
+                
+                <div class="dns-row">
+                    <div class="dns-header-row">
+                        <span class="dns-label">DoH:</span>
+                        <button class="copy-btn" onclick="copyToClipboard('doh3', 'DoH Level 3')">Copy</button>
+                    </div>
+                    <div class="dns-value" id="doh3">https://0ng9sksd6v.cloudflare-gateway.com/dns-query</div>
                 </div>
-                <div class="dns-value" id="dot3">0ng9sksd6v.cloudflare-gateway.com</div>
-            </div>
-            
-            <div class="dns-row">
-                <div class="dns-header-row">
-                    <span class="dns-label">IPv6:</span>
-                    <button class="copy-btn" onclick="copyToClipboard('ipv6-3', 'IPv6 Level 3')">Copy</button>
+                
+                <div class="dns-row">
+                    <div class="dns-header-row">
+                        <span class="dns-label">DoT:</span>
+                        <button class="copy-btn" onclick="copyToClipboard('dot3', 'DoT Level 3')">Copy</button>
+                    </div>
+                    <div class="dns-value" id="dot3">0ng9sksd6v.cloudflare-gateway.com</div>
                 </div>
-                <div class="dns-value" id="ipv6-3">2a06:98c1:54::18:ffe</div>
+                
+                <div class="dns-row">
+                    <div class="dns-header-row">
+                        <span class="dns-label">IPv6:</span>
+                        <button class="copy-btn" onclick="copyToClipboard('ipv6-3', 'IPv6 Level 3')">Copy</button>
+                    </div>
+                    <div class="dns-value" id="ipv6-3">2a06:98c1:54::18:ffe</div>
+                </div>
             </div>
         </div>
     </div>
