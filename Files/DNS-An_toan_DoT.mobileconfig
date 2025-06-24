@@ -49,7 +49,7 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>DNS - Cho trẻ em dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua TLS (DoT). Tính năng: chặn tên miền độc hại, lừa đảo, theo dõi người dùng. Nguồn: Github.com/o0oS2/DNS-Filter/wiki</string>
+<string>DNS - An toàn dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua TLS (DoT). Tính năng: chặn tên miền độc hại, lừa đảo, theo dõi người dùng. Nguồn: Github.com/o0oS2/DNS-Filter/wiki</string>
 <key>PayloadDisplayName</key>
 <string>An toàn DoT</string>
 <key>PayloadOrganization</key>
@@ -67,7 +67,7 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>DNS - Cho trẻ em dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua TLS (DoT). Tính năng: chặn tên miền độc hại, lừa đảo, theo dõi người dùng. Nguồn: Github.com/o0oS2/DNS-Filter/wiki</string>
+<string>DNS - An toàn dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua TLS (DoT). Tính năng: chặn tên miền độc hại, lừa đảo, theo dõi người dùng. Nguồn: Github.com/o0oS2/DNS-Filter/wiki</string>
 <key>PayloadDisplayName</key>
 <string>An toàn DoT</string>
 <key>PayloadOrganization</key>
