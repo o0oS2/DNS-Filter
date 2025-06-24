@@ -25,6 +25,8 @@
 <key>Domains</key>
 <array>
 <string>vietcombank.com.vn</string>
+<string>bocongan.gov.vn</string>
+<string>dichvucong.gov.vn</string>
 </array>
 </dict>
 </array>
@@ -47,9 +49,9 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>DNS - Cho trẻ em dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, quảng cáo, theo dõi người dùng, nội dung khiêu dâm, đồi trụy. Nguồn: Github.com/o0oS2/DNS-Filter/wiki</string>
+<string>DNS Bảo vệ trẻ em: dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, quảng cáo, theo dõi người dùng, nội dung khiêu dâm, đồi trụy. Nguồn: Github.com/o0oS2/DNS-Filter/wiki</string>
 <key>PayloadDisplayName</key>
-<string>DNS - Cho trẻ em</string>
+<string>DNS Bảo vệ trẻ em DoH</string>
 <key>PayloadOrganization</key>
     <string>Cloudflare Zero Trust</string>
 <key>PayloadIdentifier</key>
@@ -65,9 +67,9 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>DNS - Cho trẻ em dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, quảng cáo, theo dõi người dùng, nội dung khiêu dâm, đồi trụy. Nguồn: Github.com/o0oS2/DNS-Filter/wiki</string>
+<string>DNS Bảo vệ trẻ em: dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, quảng cáo, theo dõi người dùng, nội dung khiêu dâm, đồi trụy. Nguồn: Github.com/o0oS2/DNS-Filter/wiki</string>
 <key>PayloadDisplayName</key>
-<string>DNS - Cho trẻ em</string>
+<string>DNS Bảo vệ trẻ em DoH</string>
 <key>PayloadOrganization</key>
     <string>Cloudflare Zero Trust</string>
 <key>PayloadIdentifier</key>
