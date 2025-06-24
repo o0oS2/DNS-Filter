@@ -50,7 +50,7 @@
 <key>PayloadDescription</key>
 <string>DNS An toàn: dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, theo dõi người dùng. Nguồn: Github.com/o0oS2/DNS-Filter/wiki</string>
 <key>PayloadDisplayName</key>
-<string>DNG An toàn DoH</string>
+<string>DNG An toàn (DoH)</string>
 <key>PayloadOrganization</key>
     <string>Cloudflare Zero Trust</string>
 <key>PayloadIdentifier</key>
@@ -68,7 +68,7 @@
 <key>PayloadDescription</key>
 <string>DNS An toàn: dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, theo dõi người dùng. Nguồn: Github.com/o0oS2/DNS-Filter/wiki</string>
 <key>PayloadDisplayName</key>
-<string>DNS An toàn DoH</string>
+<string>DNS An toàn (DoH)</string>
 <key>PayloadOrganization</key>
     <string>Cloudflare Zero Trust</string>
 <key>PayloadIdentifier</key>
