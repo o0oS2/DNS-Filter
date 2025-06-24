@@ -1,0 +1,86 @@
+<plist version="1.0">
+<dict>
+<key>PayloadContent</key>
+<array>
+<dict>
+<key>DNSSettings</key>
+<dict>
+<key>DNSProtocol</key>
+<string>HTTPS</string>
+<key>ServerAddresses</key>
+<array/>
+<key>ServerURL</key>
+<string>https://0ng9sksd6v.cloudflare-gateway.com/dns-query</string>
+</dict>
+<key>OnDemandRules</key>
+<array>
+<dict>
+<key>Action</key>
+<string>EvaluateConnection</string>
+<key>ActionParameters</key>
+<array>
+<dict>
+<key>DomainAction</key>
+<string>NeverConnect</string>
+<key>Domains</key>
+<array>
+<string>vietcombank.com.vn</string>
+<string>bocongan.gov.vn</string>
+<string>dichvucong.gov.vn</string>
+</array>
+</dict>
+</array>
+</dict>
+<dict>
+<key>Action</key>
+<string>Connect</string>
+<key>InterfaceTypeMatch</key>
+<string>WiFi</string>
+</dict>
+<dict>
+<key>Action</key>
+<string>Connect</string>
+<key>InterfaceTypeMatch</key>
+<string>Cellular</string>
+</dict>
+<dict>
+<key>Action</key>
+<string>Disconnect</string>
+</dict>
+</array>
+<key>PayloadDescription</key>
+<string>DNS - Cháº·n quáº£ng cÃ¡o, 18+ dá»±a trÃªn ná»n táº£ng Cloudflare Zero Trust, DNS mÃ£ hÃ³a qua HTTPS (DoH). TÃ­nh nÄng: cháº·n tÃªn miá»n Äá»c háº¡i, lá»«a Äáº£o, quáº£ng cÃ¡o, theo dÃµi ngÆ°á»i dÃ¹ng, ná»i dung khiÃªu dÃ¢m, Äá»i trá»¥y. Nguá»n: Github.com/o0oS2/DNS-Filter/wiki</string>
+<key>PayloadDisplayName</key>
+<string>Cháº·n quáº£ng cÃ¡o, 18+ DoH</string>
+<key>PayloadOrganization</key>
+    <string>Cloudflare Zero Trust</string>
+<key>PayloadIdentifier</key>
+<string>com.apple.dnsSettings.managed.d9051d21-c5a2-4e13-8ead-ec1e09307108</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadUUID</key>
+<string>c586a12e-e98a-4bfe-adc0-a200de733ae4</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+<key>ProhibitDisablement</key>
+<false/>
+</dict>
+</array>
+<key>PayloadDescription</key>
+<string>DNS - Cháº·n quáº£ng cÃ¡o, 18+ dá»±a trÃªn ná»n táº£ng Cloudflare Zero Trust, DNS mÃ£ hÃ³a qua HTTPS (DoH). TÃ­nh nÄng: cháº·n tÃªn miá»n Äá»c háº¡i, lá»«a Äáº£o, quáº£ng cÃ¡o, theo dÃµi ngÆ°á»i dÃ¹ng, ná»i dung khiÃªu dÃ¢m, Äá»i trá»¥y. Nguá»n: Github.com/o0oS2/DNS-Filter/wiki</string>
+<key>PayloadDisplayName</key>
+<string>Cháº·n quáº£ng cÃ¡o, 18+ DoH</string>
+<key>PayloadOrganization</key>
+    <string>Cloudflare Zero Trust</string>
+<key>PayloadIdentifier</key>
+<string>com.notjakob.apple-dns.9455012f-cb25-489b-809c-2476a76c79f2</string>
+<key>PayloadRemovalDisallowed</key>
+<false/>
+<key>PayloadType</key>
+<string>Configuration</string>
+<key>PayloadUUID</key>
+<string>a83b6458-23d8-4e9a-ba7b-d025d4beedeb</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict>
+</plist>
