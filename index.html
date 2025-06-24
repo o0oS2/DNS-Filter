@@ -364,7 +364,34 @@
                 grid-template-columns: 1fr;
             }
         }
-    </style>
+    
+.download-button {
+  display: inline-block;
+  margin: 4px 8px 8px 0;
+  padding: 4px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  line-height: 1;
+  background-color: #000000; /* màu nền đen */
+  border-color: #000000; /* viền cũng đen */
+}
+.download-button::before {
+  content: " ";
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+.download-button.level-1:hover,
+.download-button.level-2:hover,
+.download-button.level-3:hover {
+  background-color: #222222; /* hover màu xám đậm hơn */
+  border-color: #222222;
+}
+</style>
 </head>
 <body>
     <div class="hero">
@@ -385,7 +412,7 @@
                 
                 <div class="dns-row">
                     <div class="dns-header-row">
-                        <span class="dns-label">DoH: <a href="Files/DNS-An_toan_DoH.mobileconfig">Tải về iPhone</a></span>
+                        <span class="dns-label">DoH: <a href="Files/DNS-An_toan_DoH.mobileconfig" download class="download-button">Tải về iPhone</a></span>
                         <button class="copy-btn" onclick="copyToClipboard('doh1', 'DoH Level 1')">Copy</button>
                     </div>
                     <div class="dns-value" id="doh1">https://yg6aot7a4o.cloudflare-gateway.com/dns-query</div>
@@ -393,7 +420,7 @@
                 
                 <div class="dns-row">
                     <div class="dns-header-row">
-                        <span class="dns-label">DoT: <a href="Files/DNS-An_toan_DoT.mobileconfig">Tải về iPhone</a></span>
+                        <span class="dns-label">DoT: <a href="Files/DNS-An_toan_DoT.mobileconfig" download class="download-button">Tải về iPhone</a></span>
                         <button class="copy-btn" onclick="copyToClipboard('dot1', 'DoT Level 1')">Copy</button>
                     </div>
                     <div class="dns-value" id="dot1">yg6aot7a4o.cloudflare-gateway.com</div>
@@ -417,7 +444,7 @@
                 
                 <div class="dns-row">
                     <div class="dns-header-row">
-                        <span class="dns-label">DoH: <a href="Files/DNS-Chan_quang_cao_DoH.mobileconfig">Tải về iPhone</a></span>
+                        <span class="dns-label">DoH: <a href="Files/DNS-Chan_quang_cao_DoH.mobileconfig" download class="download-button">Tải về iPhone</a></span>
                         <button class="copy-btn" onclick="copyToClipboard('doh2', 'DoH Level 2')">Copy</button>
                     </div>
                     <div class="dns-value" id="doh2">https://ckzui5o99j.cloudflare-gateway.com/dns-query</div>
@@ -425,7 +452,7 @@
                 
                 <div class="dns-row">
                     <div class="dns-header-row">
-                        <span class="dns-label">DoT: <a href="Files/DNS-Chan_quang_cao_DoT.mobileconfig">Tải về iPhone</a></span>
+                        <span class="dns-label">DoT: <a href="Files/DNS-Chan_quang_cao_DoT.mobileconfig" download class="download-button">Tải về iPhone</a></span>
                         <button class="copy-btn" onclick="copyToClipboard('dot2', 'DoT Level 2')">Copy</button>
                     </div>
                     <div class="dns-value" id="dot2">ckzui5o99j.cloudflare-gateway.com</div>
@@ -449,7 +476,7 @@
                 
                 <div class="dns-row">
                     <div class="dns-header-row">
-                        <span class="dns-label">DoH: <a href="Files/DNS-For_Kids_DoH.mobileconfig">Tải về iPhone</a></span>
+                        <span class="dns-label">DoH: <a href="Files/DNS-For_Kids_DoH.mobileconfig" download class="download-button">Tải về iPhone</a></span>
                         <button class="copy-btn" onclick="copyToClipboard('doh3', 'DoH Level 3')">Copy</button>
                     </div>
                     <div class="dns-value" id="doh3">https://0ng9sksd6v.cloudflare-gateway.com/dns-query</div>
@@ -457,7 +484,7 @@
                 
                 <div class="dns-row">
                     <div class="dns-header-row">
-                        <span class="dns-label">DoT: <a href="Files/DNS-For_Kids_DoT.mobileconfig">Tải về iPhone</a></span>
+                        <span class="dns-label">DoT: <a href="Files/DNS-For_Kids_DoT.mobileconfig" download class="download-button">Tải về iPhone</a></span>
                         <button class="copy-btn" onclick="copyToClipboard('dot3', 'DoT Level 3')">Copy</button>
                     </div>
                     <div class="dns-value" id="dot3">0ng9sksd6v.cloudflare-gateway.com</div>
