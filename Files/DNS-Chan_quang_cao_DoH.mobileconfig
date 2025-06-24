@@ -25,6 +25,8 @@
 <key>Domains</key>
 <array>
 <string>vietcombank.com.vn</string>
+<string>bocongan.gov.vn</string>
+<string>dichvucong.gov.vn</string>
 </array>
 </dict>
 </array>
@@ -47,9 +49,9 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>DNS - Chặn quảng cáo dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, bài bạc, quảng cáo, theo dõi người dùng. Nguồn: github.com/o0oS2/DNS-Filter/wiki</string>
+<string>DNS Chặn quảng cáo: dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, bài bạc, quảng cáo, theo dõi người dùng. Nguồn: github.com/o0oS2/DNS-Filter/wiki</string>
 <key>PayloadDisplayName</key>
-<string>DNS - Chặn quảng cáo</string>
+<string>DNS Chặn quảng cáo DoH</string>
 <key>PayloadOrganization</key>
     <string>Cloudflare Zero Trust</string>
 <key>PayloadIdentifier</key>
@@ -65,9 +67,9 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>DNS - Chặn quảng cáo dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, bài bạc, quảng cáo, theo dõi người dùng. Nguồn: github.com/o0oS2/DNS-Filter/wiki</string>
+<string>DNS Chặn quảng cáo: dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, bài bạc, quảng cáo, theo dõi người dùng. Nguồn: github.com/o0oS2/DNS-Filter/wiki</string>
 <key>PayloadDisplayName</key>
-<string>DNS - Chặn quảng cáo</string>
+<string>DNS Chặn quảng cáo DoH</string>
 <key>PayloadOrganization</key>
     <string>Cloudflare Zero Trust</string>
 <key>PayloadIdentifier</key>
