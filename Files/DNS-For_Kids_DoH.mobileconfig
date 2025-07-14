@@ -49,7 +49,7 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>DNS Bảo vệ trẻ em: dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, quảng cáo, theo dõi người dùng, nội dung khiêu dâm, đồi trụy. Nguồn: https://o0os2.github.io/DNS-Filter/</string>
+<string>DNS Bảo vệ trẻ em: dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, quảng cáo, theo dõi người dùng, nội dung khiêu dâm, đồi trụy. Nguồn: o0os2.github.io/DNS-Filter/</string>
 <key>PayloadDisplayName</key>
 <string>DNS Bảo vệ trẻ em (DoH)</string>
 <key>PayloadOrganization</key>
@@ -67,7 +67,7 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>DNS Bảo vệ trẻ em: dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, quảng cáo, theo dõi người dùng, nội dung khiêu dâm, đồi trụy. Nguồn: https://o0os2.github.io/DNS-Filter/</string>
+<string>DNS Bảo vệ trẻ em: dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, quảng cáo, theo dõi người dùng, nội dung khiêu dâm, đồi trụy. Nguồn: o0os2.github.io/DNS-Filter/</string>
 <key>PayloadDisplayName</key>
 <string>DNS Bảo vệ trẻ em (DoH)</string>
 <key>PayloadOrganization</key>
