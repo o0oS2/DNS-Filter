@@ -49,7 +49,7 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>DNS Chặn quảng cáo: dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, bài bạc, quảng cáo, theo dõi người dùng. Nguồn: github.com/o0oS2/DNS-Filter/wiki</string>
+<string>DNS Chặn quảng cáo: dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, bài bạc, quảng cáo, theo dõi người dùng. Nguồn: o0os2.github.io/DNS-Filter/</string>
 <key>PayloadDisplayName</key>
 <string>DNS Chặn quảng cáo (DoH)</string>
 <key>PayloadOrganization</key>
@@ -67,7 +67,7 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>DNS Chặn quảng cáo: dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, bài bạc, quảng cáo, theo dõi người dùng. Nguồn: github.com/o0oS2/DNS-Filter/wiki</string>
+<string>DNS Chặn quảng cáo: dựa trên nền tảng Cloudflare Zero Trust, DNS mã hóa qua HTTPS (DoH). Tính năng: chặn tên miền độc hại, lừa đảo, bài bạc, quảng cáo, theo dõi người dùng. Nguồn: o0os2.github.io/DNS-Filter/</string>
 <key>PayloadDisplayName</key>
 <string>DNS Chặn quảng cáo (DoH)</string>
 <key>PayloadOrganization</key>
