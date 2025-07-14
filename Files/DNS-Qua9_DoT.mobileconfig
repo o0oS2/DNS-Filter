@@ -1,0 +1,69 @@
+<plist version="1.0">
+<dict>
+<key>PayloadContent</key>
+<array>
+<dict>
+<key>DNSSettings</key>
+<dict>
+<key>DNSProtocol</key>
+<string>TLS</string>
+<key>ServerAddresses</key>
+<array/>
+<key>ServerName</key>
+<string>dns11.quad9.net</string>
+</dict>
+<key>OnDemandRules</key>
+<array>
+<dict>
+<key>Action</key>
+<string>Connect</string>
+<key>InterfaceTypeMatch</key>
+<string>WiFi</string>
+</dict>
+<dict>
+<key>Action</key>
+<string>Connect</string>
+<key>InterfaceTypeMatch</key>
+<string>Cellular</string>
+</dict>
+<dict>
+<key>Action</key>
+<string>Disconnect</string>
+</dict>
+</array>
+<key>PayloadDescription</key>
+<string>DNS Qua9: chặn tên miền độc hại, mã hóa qua TLS (DoT). Nguồn: quad9.net</string>
+<key>PayloadDisplayName</key>
+<string>DNS Qua9 DoT</string>
+<key>PayloadOrganization</key>
+    <string>Qua9: block Malware</string>
+<key>PayloadIdentifier</key>
+<string>com.apple.dnsSettings.managed.2bb38aa0-f69c-4d99-a2ee-7cd6ec1e28a2</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadUUID</key>
+<string>fb9b8743-645a-41d2-ada2-42ae38c9dafc</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+<key>ProhibitDisablement</key>
+<false/>
+</dict>
+</array>
+<key>PayloadDescription</key>
+<string>DNS Qua9: chặn tên miền độc hại, mã hóa qua TLS (DoT). Nguồn: quad9.net</string>
+<key>PayloadDisplayName</key>
+<string>DNS Qua9 DoT</string>
+<key>PayloadOrganization</key>
+    <string>Qua9: block Malware</string>
+<key>PayloadIdentifier</key>
+<string>com.notjakob.apple-dns.19389e54-9f25-40b9-8a58-652f59422355</string>
+<key>PayloadRemovalDisallowed</key>
+<false/>
+<key>PayloadType</key>
+<string>Configuration</string>
+<key>PayloadUUID</key>
+<string>068bf86b-e389-4dc8-9698-4eb7c83a5e65</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict>
+</plist>
