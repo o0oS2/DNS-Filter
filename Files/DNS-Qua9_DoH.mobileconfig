@@ -34,7 +34,7 @@
 <key>PayloadDescription</key>
 <string>DNS Qua9: chặn tên miền độc hại, mã hóa qua HTTPS (DoH). Nguồn: quad9.net</string>
 <key>PayloadDisplayName</key>
-<string>DNS Qua9 DoH</string>
+<string>Qua9 DoH</string>
 <key>PayloadOrganization</key>
     <string>Qua9: block Malware</string>
 <key>PayloadIdentifier</key>
@@ -52,7 +52,7 @@
 <key>PayloadDescription</key>
 <string>DNS Qua9: chặn tên miền độc hại, mã hóa qua HTTPS (DoH). Nguồn: quad9.net</string>
 <key>PayloadDisplayName</key>
-<string>DNS Qua9 DoH</string>
+<string>Qua9 DoH</string>
 <key>PayloadOrganization</key>
     <string>Qua9: block Malware</string>
 <key>PayloadIdentifier</key>
